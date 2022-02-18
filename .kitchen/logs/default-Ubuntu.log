@@ -1,0 +1,829 @@
+I, [2022-02-17T20:41:25.093278 #16611]  INFO -- default-Ubuntu: -----> Cleaning up any prior instances of <default-Ubuntu>
+I, [2022-02-17T20:41:25.093544 #16611]  INFO -- default-Ubuntu: -----> Destroying <default-Ubuntu>...
+I, [2022-02-17T20:41:25.094174 #16611]  INFO -- default-Ubuntu: Finished destroying <default-Ubuntu> (0m0.00s).
+I, [2022-02-17T20:41:25.094440 #16611]  INFO -- default-Ubuntu: -----> Testing <default-Ubuntu>
+I, [2022-02-17T20:41:25.094598 #16611]  INFO -- default-Ubuntu: -----> Creating <default-Ubuntu>...
+I, [2022-02-17T20:41:25.876915 #16611]  INFO -- default-Ubuntu: [SSH] Established
+I, [2022-02-17T20:41:25.878245 #16611]  INFO -- default-Ubuntu: Finished creating <default-Ubuntu> (0m0.78s).
+I, [2022-02-17T20:41:25.878497 #16611]  INFO -- default-Ubuntu: -----> Converging <default-Ubuntu>...
+I, [2022-02-17T20:41:25.879336 #16611]  INFO -- default-Ubuntu: Preparing files for transfer
+I, [2022-02-17T20:41:25.879457 #16611]  INFO -- default-Ubuntu: Preparing playbook
+I, [2022-02-17T20:41:25.880015 #16611]  INFO -- default-Ubuntu: Preparing inventory
+I, [2022-02-17T20:41:25.880368 #16611]  INFO -- default-Ubuntu: Preparing modules
+I, [2022-02-17T20:41:25.880644 #16611]  INFO -- default-Ubuntu: nothing to do for modules
+I, [2022-02-17T20:41:25.880732 #16611]  INFO -- default-Ubuntu: Preparing roles
+I, [2022-02-17T20:41:25.908923 #16611]  INFO -- default-Ubuntu: Preparing ansible.cfg file
+I, [2022-02-17T20:41:25.909135 #16611]  INFO -- default-Ubuntu: Empty ansible.cfg generated
+I, [2022-02-17T20:41:25.909464 #16611]  INFO -- default-Ubuntu: Preparing group_vars
+I, [2022-02-17T20:41:25.909702 #16611]  INFO -- default-Ubuntu: nothing to do for group_vars
+I, [2022-02-17T20:41:25.909791 #16611]  INFO -- default-Ubuntu: Preparing additional_copy_path
+I, [2022-02-17T20:41:25.910124 #16611]  INFO -- default-Ubuntu: Preparing host_vars
+I, [2022-02-17T20:41:25.910354 #16611]  INFO -- default-Ubuntu: nothing to do for host_vars
+I, [2022-02-17T20:41:25.910462 #16611]  INFO -- default-Ubuntu: Preparing hosts file
+I, [2022-02-17T20:41:25.910845 #16611]  INFO -- default-Ubuntu: Preparing spec
+I, [2022-02-17T20:41:25.911060 #16611]  INFO -- default-Ubuntu: nothing to do for spec
+I, [2022-02-17T20:41:25.911205 #16611]  INFO -- default-Ubuntu: Preparing library plugins
+I, [2022-02-17T20:41:25.911573 #16611]  INFO -- default-Ubuntu: nothing to do for library plugins
+I, [2022-02-17T20:41:25.911665 #16611]  INFO -- default-Ubuntu: Preparing callback plugins
+I, [2022-02-17T20:41:25.911993 #16611]  INFO -- default-Ubuntu: nothing to do for callback plugins
+I, [2022-02-17T20:41:25.912098 #16611]  INFO -- default-Ubuntu: Preparing filter_plugins
+I, [2022-02-17T20:41:25.912367 #16611]  INFO -- default-Ubuntu: nothing to do for filter_plugins
+I, [2022-02-17T20:41:25.912451 #16611]  INFO -- default-Ubuntu: Preparing lookup_plugins
+I, [2022-02-17T20:41:25.912785 #16611]  INFO -- default-Ubuntu: nothing to do for lookup_plugins
+I, [2022-02-17T20:41:25.912958 #16611]  INFO -- default-Ubuntu: Preparing ansible vault password
+I, [2022-02-17T20:41:25.913276 #16611]  INFO -- default-Ubuntu: Preparing additional_ssh_private_keys
+I, [2022-02-17T20:41:25.913478 #16611]  INFO -- default-Ubuntu: nothing to do for additional_ssh_private_keys
+I, [2022-02-17T20:41:25.913604 #16611]  INFO -- default-Ubuntu: Finished Preparing files for transfer
+I, [2022-02-17T20:41:25.914127 #16611]  INFO -- default-Ubuntu: Installing ansible, will try to determine platform os
+I, [2022-02-17T20:41:26.682747 #16611]  INFO -- default-Ubuntu: 0% [Working]0% [Waiting for headers] [Waiting for headers]                                              Hit:1 http://security.ubuntu.com/ubuntu focal-security InRelease
+I, [2022-02-17T20:41:26.683935 #16611]  INFO -- default-Ubuntu:                                               0% [Waiting for headers]                        Hit:2 http://archive.ubuntu.com/ubuntu focal InRelease
+I, [2022-02-17T20:41:26.940563 #16611]  INFO -- default-Ubuntu: 0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]                        Hit:3 http://archive.ubuntu.com/ubuntu focal-updates InRelease
+I, [2022-02-17T20:41:27.165585 #16611]  INFO -- default-Ubuntu: 0% [Waiting for headers]0% [Waiting for headers]                        Hit:4 http://archive.ubuntu.com/ubuntu focal-backports InRelease
+I, [2022-02-17T20:41:28.153563 #16611]  INFO -- default-Ubuntu:                         0% [Working]20% [Working]             Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 61%Reading package lists... 61%Reading package lists... 62%Reading package lists... 62%Reading package lists... 71%Reading package lists... 71%Reading package lists... 73%Reading package lists... 76%Reading package lists... 76%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 90%Reading package lists... 90%Reading package lists... 95%Reading package lists... 95%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+I, [2022-02-17T20:41:29.120806 #16611]  INFO -- default-Ubuntu: Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 61%Reading package lists... 61%Reading package lists... 62%Reading package lists... 62%Reading package lists... 71%Reading package lists... 71%Reading package lists... 76%Reading package lists... 76%Reading package lists... 76%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 90%Reading package lists... 90%Reading package lists... 95%Reading package lists... 95%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+I, [2022-02-17T20:41:29.322956 #16611]  INFO -- default-Ubuntu: Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+I, [2022-02-17T20:41:29.324102 #16611]  INFO -- default-Ubuntu: Reading state information... 0%Reading state information... 1%Reading state information... Done
+I, [2022-02-17T20:41:29.516409 #16611]  INFO -- default-Ubuntu: The following additional packages will be installed:
+I, [2022-02-17T20:41:29.517008 #16611]  INFO -- default-Ubuntu:   git-man gnupg gnupg-l10n gnupg-utils gpg gpg-agent gpg-wks-client
+I, [2022-02-17T20:41:29.517648 #16611]  INFO -- default-Ubuntu:   gpg-wks-server gpgconf gpgsm less libassuan0 libcurl3-gnutls liberror-perl
+I, [2022-02-17T20:41:29.518706 #16611]  INFO -- default-Ubuntu:   libgdbm-compat4 libgdbm6 libksba8 libnpth0 libperl5.30 netbase patch perl
+I, [2022-02-17T20:41:29.519901 #16611]  INFO -- default-Ubuntu:   perl-modules-5.30 pinentry-curses
+I, [2022-02-17T20:41:29.521716 #16611]  INFO -- default-Ubuntu: Suggested packages:
+I, [2022-02-17T20:41:29.522281 #16611]  INFO -- default-Ubuntu:   dbus-user-session pinentry-gnome3 tor gettext-base git-daemon-run
+I, [2022-02-17T20:41:29.522812 #16611]  INFO -- default-Ubuntu:   | git-daemon-sysvinit git-doc git-el git-email git-gui gitk gitweb git-cvs
+I, [2022-02-17T20:41:29.523302 #16611]  INFO -- default-Ubuntu:   git-mediawiki git-svn parcimonie xloadimage scdaemon gdbm-l10n ed
+I, [2022-02-17T20:41:29.523890 #16611]  INFO -- default-Ubuntu:   diffutils-doc perl-doc libterm-readline-gnu-perl
+I, [2022-02-17T20:41:29.524628 #16611]  INFO -- default-Ubuntu:   | libterm-readline-perl-perl make libb-debug-perl liblocale-codes-perl
+I, [2022-02-17T20:41:29.525177 #16611]  INFO -- default-Ubuntu:   pinentry-doc
+I, [2022-02-17T20:41:29.578797 #16611]  INFO -- default-Ubuntu: The following NEW packages will be installed:
+I, [2022-02-17T20:41:29.579569 #16611]  INFO -- default-Ubuntu:   apt-utils dirmngr git git-man gnupg gnupg-l10n gnupg-utils gpg gpg-agent
+I, [2022-02-17T20:41:29.580284 #16611]  INFO -- default-Ubuntu:   gpg-wks-client gpg-wks-server gpgconf gpgsm less libassuan0 libcurl3-gnutls
+I, [2022-02-17T20:41:29.581348 #16611]  INFO -- default-Ubuntu:   liberror-perl libgdbm-compat4 libgdbm6 libksba8 libnpth0 libperl5.30 netbase
+I, [2022-02-17T20:41:29.582108 #16611]  INFO -- default-Ubuntu:   patch perl perl-modules-5.30 pinentry-curses
+I, [2022-02-17T20:41:29.590713 #16611]  INFO -- default-Ubuntu: 0 upgraded, 27 newly installed, 0 to remove and 9 not upgraded.
+I, [2022-02-17T20:41:29.591310 #16611]  INFO -- default-Ubuntu: Need to get 15.6 MB of archives.
+I, [2022-02-17T20:41:29.591827 #16611]  INFO -- default-Ubuntu: After this operation, 94.3 MB of additional disk space will be used.
+I, [2022-02-17T20:41:30.044447 #16611]  INFO -- default-Ubuntu: 0% [Working]            Get:1 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 perl-modules-5.30 all 5.30.0-9ubuntu0.2 [2738 kB]
+I, [2022-02-17T20:41:42.213881 #16611]  INFO -- default-Ubuntu: 0% [1 perl-modules-5.30 0 B/2738 kB 0%]0% [1 perl-modules-5.30 78.9 kB/2738 kB 3%]                                           1% [1 perl-modules-5.30 225 kB/2738 kB 8%]2% [1 perl-modules-5.30 359 kB/2738 kB 13%]3% [1 perl-modules-5.30 504 kB/2738 kB 18%]3% [1 perl-modules-5.30 665 kB/2738 kB 24%]4% [1 perl-modules-5.30 792 kB/2738 kB 29%]5% [1 perl-modules-5.30 918 kB/2738 kB 34%]5% [1 perl-modules-5.30 1046 kB/2738 kB 38%]6% [1 perl-modules-5.30 1195 kB/2738 kB 44%]7% [1 perl-modules-5.30 1328 kB/2738 kB 49%]8% [1 perl-modules-5.30 1473 kB/2738 kB 54%]8% [1 perl-modules-5.30 1618 kB/2738 kB 59%]                       250 kB/s 56s9% [1 perl-modules-5.30 1741 kB/2738 kB 64%]                       250 kB/s 55s10% [1 perl-modules-5.30 1872 kB/2738 kB 68%]                      250 kB/s 55s10% [1 perl-modules-5.30 1989 kB/2738 kB 73%]                      250 kB/s 54s11% [1 perl-modules-5.30 2102 kB/2738 kB 77%]                      250 kB/s 54s11% [1 perl-modules-5.30 2228 kB/2738 kB 81%]                      250 kB/s 53s12% [1 perl-modules-5.30 2351 kB/2738 kB 86%]                      250 kB/s 53s13% [1 perl-modules-5.30 2455 kB/2738 kB 90%]                      250 kB/s 52s13% [1 perl-modules-5.30 2582 kB/2738 kB 94%]                      250 kB/s 52s14% [1 perl-modules-5.30 2725 kB/2738 kB 100%]                     250 kB/s 51s14% [1 perl-modules-5.30 2730 kB/2738 kB 100%]                     250 kB/s 51s14% [1 perl-modules-5.30 2730 kB/2738 kB 100%]                     250 kB/s 51s15% [Working]                                                      250 kB/s 51s                                                                               Get:2 http://archive.ubuntu.com/ubuntu focal/main amd64 libgdbm6 amd64 1.18.1-5 [27.4 kB]
+I, [2022-02-17T20:41:42.687691 #16611]  INFO -- default-Ubuntu: 15% [2 libgdbm6 0 B/27.4 kB 0%]                               182 kB/s 1min 10s16% [Working]                                                 182 kB/s 1min 10s                                                                               Get:3 http://archive.ubuntu.com/ubuntu focal/main amd64 libgdbm-compat4 amd64 1.18.1-5 [6244 B]
+I, [2022-02-17T20:41:42.921805 #16611]  INFO -- default-Ubuntu: 16% [3 libgdbm-compat4 0 B/6244 B 0%]                         182 kB/s 1min 10s16% [Working]                                                 182 kB/s 1min 10s                                                                               Get:4 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libperl5.30 amd64 5.30.0-9ubuntu0.2 [3952 kB]
+I, [2022-02-17T20:41:58.368574 #16611]  INFO -- default-Ubuntu: 16% [4 libperl5.30 0 B/3952 kB 0%]                            182 kB/s 1min 10s17% [4 libperl5.30 139 kB/3952 kB 4%]                          182 kB/s 1min 9s18% [4 libperl5.30 285 kB/3952 kB 7%]                          182 kB/s 1min 9s19% [4 libperl5.30 419 kB/3952 kB 11%]                         182 kB/s 1min 8s19% [4 libperl5.30 552 kB/3952 kB 14%]                         182 kB/s 1min 7s20% [4 libperl5.30 679 kB/3952 kB 17%]                         182 kB/s 1min 6s21% [4 libperl5.30 828 kB/3952 kB 21%]                         182 kB/s 1min 6s21% [4 libperl5.30 963 kB/3952 kB 24%]                         182 kB/s 1min 5s22% [4 libperl5.30 1116 kB/3952 kB 28%]                        182 kB/s 1min 4s23% [4 libperl5.30 1248 kB/3952 kB 32%]                        182 kB/s 1min 3s23% [4 libperl5.30 1373 kB/3952 kB 35%]                        182 kB/s 1min 3s24% [4 libperl5.30 1498 kB/3952 kB 38%]                            246 kB/s 46s25% [4 libperl5.30 1616 kB/3952 kB 41%]                            246 kB/s 45s25% [4 libperl5.30 1741 kB/3952 kB 44%]                            246 kB/s 45s26% [4 libperl5.30 1883 kB/3952 kB 48%]                            246 kB/s 44s27% [4 libperl5.30 2014 kB/3952 kB 51%]                            246 kB/s 44s27% [4 libperl5.30 2167 kB/3952 kB 55%]                            246 kB/s 43s28% [4 libperl5.30 2310 kB/3952 kB 58%]                            246 kB/s 42s29% [4 libperl5.30 2448 kB/3952 kB 62%]                            246 kB/s 42s30% [4 libperl5.30 2588 kB/3952 kB 65%]                            246 kB/s 41s30% [4 libperl5.30 2724 kB/3952 kB 69%]                            246 kB/s 41s31% [4 libperl5.30 2864 kB/3952 kB 72%]                            246 kB/s 40s32% [4 libperl5.30 2993 kB/3952 kB 76%]                            246 kB/s 40s32% [4 libperl5.30 3139 kB/3952 kB 79%]                            273 kB/s 35s33% [4 libperl5.30 3261 kB/3952 kB 83%]                            273 kB/s 35s34% [4 libperl5.30 3407 kB/3952 kB 86%]                            273 kB/s 34s35% [4 libperl5.30 3561 kB/3952 kB 90%]                            273 kB/s 34s35% [4 libperl5.30 3690 kB/3952 kB 93%]                            273 kB/s 33s36% [4 libperl5.30 3839 kB/3952 kB 97%]                            273 kB/s 33s37% [4 libperl5.30 3944 kB/3952 kB 100%]                           273 kB/s 32s37% [Working]                                                      273 kB/s 32s                                                                               Get:5 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 perl amd64 5.30.0-9ubuntu0.2 [224 kB]
+I, [2022-02-17T20:41:59.632474 #16611]  INFO -- default-Ubuntu: 37% [5 perl 0 B/224 kB 0%]                                         273 kB/s 32s38% [5 perl 56.3 kB/224 kB 25%]                                    273 kB/s 32s38% [5 perl 208 kB/224 kB 93%]                                     273 kB/s 31s39% [Working]                                                      273 kB/s 31s                                                                               Get:6 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 apt-utils amd64 2.0.6 [216 kB]
+I, [2022-02-17T20:42:00.250813 #16611]  INFO -- default-Ubuntu: 39% [6 apt-utils 0 B/216 kB 0%]                                    273 kB/s 31s41% [Working]                                                      273 kB/s 31s                                                                               Get:7 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 less amd64 551-1ubuntu0.1 [123 kB]
+I, [2022-02-17T20:42:00.593420 #16611]  INFO -- default-Ubuntu: 41% [7 less 0 B/123 kB 0%]                                         273 kB/s 31s42% [Working]                                                      273 kB/s 30s                                                                               Get:8 http://archive.ubuntu.com/ubuntu focal/main amd64 netbase all 6.1 [13.1 kB]
+I, [2022-02-17T20:42:00.852517 #16611]  INFO -- default-Ubuntu: 42% [8 netbase 0 B/13.1 kB 0%]                                     224 kB/s 37s43% [Working]                                                      224 kB/s 37s                                                                               Get:9 http://archive.ubuntu.com/ubuntu focal/main amd64 libassuan0 amd64 2.5.3-7ubuntu2 [35.7 kB]
+I, [2022-02-17T20:42:01.122481 #16611]  INFO -- default-Ubuntu: 43% [9 libassuan0 0 B/35.7 kB 0%]                                  224 kB/s 37s44% [Working]                                                      224 kB/s 37s                                                                               Get:10 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 gpgconf amd64 2.2.19-3ubuntu2.1 [124 kB]
+I, [2022-02-17T20:42:01.459197 #16611]  INFO -- default-Ubuntu: 44% [10 gpgconf 0 B/124 kB 0%]                                     224 kB/s 37s46% [Working]                                                      224 kB/s 36s                                                                               Get:11 http://archive.ubuntu.com/ubuntu focal/main amd64 libksba8 amd64 1.3.5-2 [92.6 kB]
+I, [2022-02-17T20:42:01.773875 #16611]  INFO -- default-Ubuntu: 46% [11 libksba8 0 B/92.6 kB 0%]                                   224 kB/s 36s47% [Working]                                                      224 kB/s 36s                                                                               Get:12 http://archive.ubuntu.com/ubuntu focal/main amd64 libnpth0 amd64 1.6-1 [7736 B]
+I, [2022-02-17T20:42:02.024061 #16611]  INFO -- default-Ubuntu: 47% [12 libnpth0 0 B/7736 B 0%]                                    224 kB/s 36s48% [Working]                                                      224 kB/s 36s                                                                               Get:13 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 dirmngr amd64 2.2.19-3ubuntu2.1 [329 kB]
+I, [2022-02-17T20:42:02.521377 #16611]  INFO -- default-Ubuntu: 48% [13 dirmngr 0 B/329 kB 0%]                                     224 kB/s 36s50% [Working]                                                      224 kB/s 34s                                                                               Get:14 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libcurl3-gnutls amd64 7.68.0-1ubuntu2.7 [232 kB]
+I, [2022-02-17T20:42:02.860199 #16611]  INFO -- default-Ubuntu: 50% [14 libcurl3-gnutls 0 B/232 kB 0%]                             224 kB/s 34s52% [Working]                                                      224 kB/s 33s                                                                               Get:15 http://archive.ubuntu.com/ubuntu focal/main amd64 liberror-perl all 0.17029-1 [26.5 kB]
+I, [2022-02-17T20:42:03.142692 #16611]  INFO -- default-Ubuntu: 52% [15 liberror-perl 0 B/26.5 kB 0%]                              224 kB/s 33s53% [Working]                                                      224 kB/s 33s                                                                               Get:16 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 git-man all 1:2.25.1-1ubuntu3.2 [884 kB]
+I, [2022-02-17T20:42:03.965761 #16611]  INFO -- default-Ubuntu: 53% [16 git-man 0 B/884 kB 0%]                                     224 kB/s 33s57% [16 git-man 867 kB/884 kB 98%]                                 224 kB/s 29s58% [Working]                                                      224 kB/s 29s                                                                               Get:17 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 git amd64 1:2.25.1-1ubuntu3.2 [4554 kB]
+I, [2022-02-17T20:42:05.426184 #16611]  INFO -- default-Ubuntu: 58% [17 git 0 B/4554 kB 0%]                                        224 kB/s 29s75% [17 git 3385 kB/4554 kB 74%]                                   224 kB/s 14s81% [17 git 4543 kB/4554 kB 100%]                                   224 kB/s 9s82% [Working]                                                       224 kB/s 9s                                                                               Get:18 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 gnupg-l10n all 2.2.19-3ubuntu2.1 [51.7 kB]
+I, [2022-02-17T20:42:05.717099 #16611]  INFO -- default-Ubuntu: 82% [18 gnupg-l10n 0 B/51.7 kB 0%]                                  224 kB/s 9s83% [Working]                                                       224 kB/s 8s                                                                               Get:19 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 gnupg-utils amd64 2.2.19-3ubuntu2.1 [480 kB]
+I, [2022-02-17T20:42:06.022274 #16611]  INFO -- default-Ubuntu: 83% [19 gnupg-utils 0 B/480 kB 0%]                                  224 kB/s 8s86% [Working]                                                       224 kB/s 6s                                                                               Get:20 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 gpg amd64 2.2.19-3ubuntu2.1 [483 kB]
+I, [2022-02-17T20:42:06.316607 #16611]  INFO -- default-Ubuntu: 86% [20 gpg 0 B/483 kB 0%]                                          224 kB/s 6s90% [Working]                                                       224 kB/s 4s                                                                               Get:21 http://archive.ubuntu.com/ubuntu focal/main amd64 pinentry-curses amd64 1.1.0-3build1 [36.3 kB]
+I, [2022-02-17T20:42:06.573581 #16611]  INFO -- default-Ubuntu: 90% [21 pinentry-curses 0 B/36.3 kB 0%]                             224 kB/s 4s90% [Working]                                                       224 kB/s 4s                                                                               Get:22 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 gpg-agent amd64 2.2.19-3ubuntu2.1 [232 kB]
+I, [2022-02-17T20:42:06.855251 #16611]  INFO -- default-Ubuntu: 90% [22 gpg-agent 0 B/232 kB 0%]                                    224 kB/s 4s92% [Working]                                                      1260 kB/s 0s                                                                               Get:23 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 gpg-wks-client amd64 2.2.19-3ubuntu2.1 [97.6 kB]
+I, [2022-02-17T20:42:07.118408 #16611]  INFO -- default-Ubuntu: 92% [23 gpg-wks-client 0 B/97.6 kB 0%]                             1260 kB/s 0s94% [Working]                                                      1260 kB/s 0s                                                                               Get:24 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 gpg-wks-server amd64 2.2.19-3ubuntu2.1 [90.3 kB]
+I, [2022-02-17T20:42:07.371633 #16611]  INFO -- default-Ubuntu: 94% [24 gpg-wks-server 0 B/90.3 kB 0%]                             1260 kB/s 0s95% [Working]                                                      1260 kB/s 0s                                                                               Get:25 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 gpgsm amd64 2.2.19-3ubuntu2.1 [217 kB]
+I, [2022-02-17T20:42:07.645917 #16611]  INFO -- default-Ubuntu: 95% [25 gpgsm 0 B/217 kB 0%]                                       1260 kB/s 0s97% [Working]                                                      1260 kB/s 0s                                                                               Get:26 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 gnupg all 2.2.19-3ubuntu2.1 [259 kB]
+I, [2022-02-17T20:42:07.932497 #16611]  INFO -- default-Ubuntu: 97% [26 gnupg 0 B/259 kB 0%]                                       1260 kB/s 0s99% [Working]                                                      1260 kB/s 0s                                                                               Get:27 http://archive.ubuntu.com/ubuntu focal/main amd64 patch amd64 2.7.6-6 [105 kB]
+I, [2022-02-17T20:42:07.956571 #16611]  INFO -- default-Ubuntu: 99% [27 patch 0 B/105 kB 0%]                                       1260 kB/s 0s100% [Working]                                                     1260 kB/s 0s                                                                               Fetched 15.6 MB in 38s (408 kB/s)
+I, [2022-02-17T20:42:08.007139 #16611]  INFO -- default-Ubuntu: perl: warning: Setting locale failed.
+I, [2022-02-17T20:42:08.007756 #16611]  INFO -- default-Ubuntu: perl: warning: Please check that your locale settings:
+I, [2022-02-17T20:42:08.008438 #16611]  INFO -- default-Ubuntu: 	LANGUAGE = (unset),
+I, [2022-02-17T20:42:08.009065 #16611]  INFO -- default-Ubuntu: 	LC_ALL = (unset),
+I, [2022-02-17T20:42:08.009882 #16611]  INFO -- default-Ubuntu: 	LANG = "en_US.UTF-8"
+I, [2022-02-17T20:42:08.010590 #16611]  INFO -- default-Ubuntu:     are supported and installed on your system.
+I, [2022-02-17T20:42:08.011192 #16611]  INFO -- default-Ubuntu: perl: warning: Falling back to the standard locale ("C").
+I, [2022-02-17T20:42:08.116000 #16611]  INFO -- default-Ubuntu: debconf: delaying package configuration, since apt-utils is not installed
+I, [2022-02-17T20:42:08.160591 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package perl-modules-5.30.
+I, [2022-02-17T20:42:08.180176 #16611]  INFO -- default-Ubuntu: (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 12296 files and directories currently installed.)
+I, [2022-02-17T20:42:08.183710 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../00-perl-modules-5.30_5.30.0-9ubuntu0.2_all.deb ...
+I, [2022-02-17T20:42:08.186680 #16611]  INFO -- default-Ubuntu: Unpacking perl-modules-5.30 (5.30.0-9ubuntu0.2) ...
+I, [2022-02-17T20:42:08.605975 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package libgdbm6:amd64.
+I, [2022-02-17T20:42:08.608136 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../01-libgdbm6_1.18.1-5_amd64.deb ...
+I, [2022-02-17T20:42:08.612965 #16611]  INFO -- default-Ubuntu: Unpacking libgdbm6:amd64 (1.18.1-5) ...
+I, [2022-02-17T20:42:08.637525 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package libgdbm-compat4:amd64.
+I, [2022-02-17T20:42:08.639432 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../02-libgdbm-compat4_1.18.1-5_amd64.deb ...
+I, [2022-02-17T20:42:08.641827 #16611]  INFO -- default-Ubuntu: Unpacking libgdbm-compat4:amd64 (1.18.1-5) ...
+I, [2022-02-17T20:42:08.666878 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package libperl5.30:amd64.
+I, [2022-02-17T20:42:08.668956 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../03-libperl5.30_5.30.0-9ubuntu0.2_amd64.deb ...
+I, [2022-02-17T20:42:08.672143 #16611]  INFO -- default-Ubuntu: Unpacking libperl5.30:amd64 (5.30.0-9ubuntu0.2) ...
+I, [2022-02-17T20:42:09.150483 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package perl.
+I, [2022-02-17T20:42:09.153176 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../04-perl_5.30.0-9ubuntu0.2_amd64.deb ...
+I, [2022-02-17T20:42:09.160222 #16611]  INFO -- default-Ubuntu: Unpacking perl (5.30.0-9ubuntu0.2) ...
+I, [2022-02-17T20:42:09.208454 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package apt-utils.
+I, [2022-02-17T20:42:09.210419 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../05-apt-utils_2.0.6_amd64.deb ...
+I, [2022-02-17T20:42:09.213108 #16611]  INFO -- default-Ubuntu: Unpacking apt-utils (2.0.6) ...
+I, [2022-02-17T20:42:09.251706 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package less.
+I, [2022-02-17T20:42:09.253832 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../06-less_551-1ubuntu0.1_amd64.deb ...
+I, [2022-02-17T20:42:09.257882 #16611]  INFO -- default-Ubuntu: Unpacking less (551-1ubuntu0.1) ...
+I, [2022-02-17T20:42:09.295599 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package netbase.
+I, [2022-02-17T20:42:09.297771 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../07-netbase_6.1_all.deb ...
+I, [2022-02-17T20:42:09.300738 #16611]  INFO -- default-Ubuntu: Unpacking netbase (6.1) ...
+I, [2022-02-17T20:42:09.326926 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package libassuan0:amd64.
+I, [2022-02-17T20:42:09.329255 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../08-libassuan0_2.5.3-7ubuntu2_amd64.deb ...
+I, [2022-02-17T20:42:09.332602 #16611]  INFO -- default-Ubuntu: Unpacking libassuan0:amd64 (2.5.3-7ubuntu2) ...
+I, [2022-02-17T20:42:09.354854 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package gpgconf.
+I, [2022-02-17T20:42:09.357069 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../09-gpgconf_2.2.19-3ubuntu2.1_amd64.deb ...
+I, [2022-02-17T20:42:09.359985 #16611]  INFO -- default-Ubuntu: Unpacking gpgconf (2.2.19-3ubuntu2.1) ...
+I, [2022-02-17T20:42:09.393916 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package libksba8:amd64.
+I, [2022-02-17T20:42:09.395943 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../10-libksba8_1.3.5-2_amd64.deb ...
+I, [2022-02-17T20:42:09.398621 #16611]  INFO -- default-Ubuntu: Unpacking libksba8:amd64 (1.3.5-2) ...
+I, [2022-02-17T20:42:09.427472 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package libnpth0:amd64.
+I, [2022-02-17T20:42:09.429553 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../11-libnpth0_1.6-1_amd64.deb ...
+I, [2022-02-17T20:42:09.432803 #16611]  INFO -- default-Ubuntu: Unpacking libnpth0:amd64 (1.6-1) ...
+I, [2022-02-17T20:42:09.462306 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package dirmngr.
+I, [2022-02-17T20:42:09.464667 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../12-dirmngr_2.2.19-3ubuntu2.1_amd64.deb ...
+I, [2022-02-17T20:42:09.477605 #16611]  INFO -- default-Ubuntu: Unpacking dirmngr (2.2.19-3ubuntu2.1) ...
+I, [2022-02-17T20:42:09.522096 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package libcurl3-gnutls:amd64.
+I, [2022-02-17T20:42:09.524105 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../13-libcurl3-gnutls_7.68.0-1ubuntu2.7_amd64.deb ...
+I, [2022-02-17T20:42:09.527113 #16611]  INFO -- default-Ubuntu: Unpacking libcurl3-gnutls:amd64 (7.68.0-1ubuntu2.7) ...
+I, [2022-02-17T20:42:09.560433 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package liberror-perl.
+I, [2022-02-17T20:42:09.563614 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../14-liberror-perl_0.17029-1_all.deb ...
+I, [2022-02-17T20:42:09.567089 #16611]  INFO -- default-Ubuntu: Unpacking liberror-perl (0.17029-1) ...
+I, [2022-02-17T20:42:09.586779 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package git-man.
+I, [2022-02-17T20:42:09.593034 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../15-git-man_1%3a2.25.1-1ubuntu3.2_all.deb ...
+I, [2022-02-17T20:42:09.595960 #16611]  INFO -- default-Ubuntu: Unpacking git-man (1:2.25.1-1ubuntu3.2) ...
+I, [2022-02-17T20:42:09.714239 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package git.
+I, [2022-02-17T20:42:09.716422 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../16-git_1%3a2.25.1-1ubuntu3.2_amd64.deb ...
+I, [2022-02-17T20:42:09.735706 #16611]  INFO -- default-Ubuntu: Unpacking git (1:2.25.1-1ubuntu3.2) ...
+I, [2022-02-17T20:42:10.236163 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package gnupg-l10n.
+I, [2022-02-17T20:42:10.238267 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../17-gnupg-l10n_2.2.19-3ubuntu2.1_all.deb ...
+I, [2022-02-17T20:42:10.241384 #16611]  INFO -- default-Ubuntu: Unpacking gnupg-l10n (2.2.19-3ubuntu2.1) ...
+I, [2022-02-17T20:42:10.265302 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package gnupg-utils.
+I, [2022-02-17T20:42:10.267310 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../18-gnupg-utils_2.2.19-3ubuntu2.1_amd64.deb ...
+I, [2022-02-17T20:42:10.269839 #16611]  INFO -- default-Ubuntu: Unpacking gnupg-utils (2.2.19-3ubuntu2.1) ...
+I, [2022-02-17T20:42:10.331936 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package gpg.
+I, [2022-02-17T20:42:10.334046 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../19-gpg_2.2.19-3ubuntu2.1_amd64.deb ...
+I, [2022-02-17T20:42:10.337179 #16611]  INFO -- default-Ubuntu: Unpacking gpg (2.2.19-3ubuntu2.1) ...
+I, [2022-02-17T20:42:10.436896 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package pinentry-curses.
+I, [2022-02-17T20:42:10.438961 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../20-pinentry-curses_1.1.0-3build1_amd64.deb ...
+I, [2022-02-17T20:42:10.441867 #16611]  INFO -- default-Ubuntu: Unpacking pinentry-curses (1.1.0-3build1) ...
+I, [2022-02-17T20:42:10.465339 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package gpg-agent.
+I, [2022-02-17T20:42:10.467350 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../21-gpg-agent_2.2.19-3ubuntu2.1_amd64.deb ...
+I, [2022-02-17T20:42:10.470064 #16611]  INFO -- default-Ubuntu: Unpacking gpg-agent (2.2.19-3ubuntu2.1) ...
+I, [2022-02-17T20:42:10.506742 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package gpg-wks-client.
+I, [2022-02-17T20:42:10.508842 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../22-gpg-wks-client_2.2.19-3ubuntu2.1_amd64.deb ...
+I, [2022-02-17T20:42:10.511334 #16611]  INFO -- default-Ubuntu: Unpacking gpg-wks-client (2.2.19-3ubuntu2.1) ...
+I, [2022-02-17T20:42:10.534900 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package gpg-wks-server.
+I, [2022-02-17T20:42:10.537730 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../23-gpg-wks-server_2.2.19-3ubuntu2.1_amd64.deb ...
+I, [2022-02-17T20:42:10.541971 #16611]  INFO -- default-Ubuntu: Unpacking gpg-wks-server (2.2.19-3ubuntu2.1) ...
+I, [2022-02-17T20:42:10.564458 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package gpgsm.
+I, [2022-02-17T20:42:10.566523 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../24-gpgsm_2.2.19-3ubuntu2.1_amd64.deb ...
+I, [2022-02-17T20:42:10.569220 #16611]  INFO -- default-Ubuntu: Unpacking gpgsm (2.2.19-3ubuntu2.1) ...
+I, [2022-02-17T20:42:10.601734 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package gnupg.
+I, [2022-02-17T20:42:10.603932 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../25-gnupg_2.2.19-3ubuntu2.1_all.deb ...
+I, [2022-02-17T20:42:10.606749 #16611]  INFO -- default-Ubuntu: Unpacking gnupg (2.2.19-3ubuntu2.1) ...
+I, [2022-02-17T20:42:10.634252 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package patch.
+I, [2022-02-17T20:42:10.636348 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../26-patch_2.7.6-6_amd64.deb ...
+I, [2022-02-17T20:42:10.646117 #16611]  INFO -- default-Ubuntu: Unpacking patch (2.7.6-6) ...
+I, [2022-02-17T20:42:10.687628 #16611]  INFO -- default-Ubuntu: Setting up libksba8:amd64 (1.3.5-2) ...
+I, [2022-02-17T20:42:10.694751 #16611]  INFO -- default-Ubuntu: Setting up apt-utils (2.0.6) ...
+I, [2022-02-17T20:42:10.701632 #16611]  INFO -- default-Ubuntu: Setting up perl-modules-5.30 (5.30.0-9ubuntu0.2) ...
+I, [2022-02-17T20:42:10.708616 #16611]  INFO -- default-Ubuntu: Setting up less (551-1ubuntu0.1) ...
+I, [2022-02-17T20:42:10.720399 #16611]  INFO -- default-Ubuntu: Setting up libcurl3-gnutls:amd64 (7.68.0-1ubuntu2.7) ...
+I, [2022-02-17T20:42:10.727094 #16611]  INFO -- default-Ubuntu: Setting up libnpth0:amd64 (1.6-1) ...
+I, [2022-02-17T20:42:10.733915 #16611]  INFO -- default-Ubuntu: Setting up libassuan0:amd64 (2.5.3-7ubuntu2) ...
+I, [2022-02-17T20:42:10.740818 #16611]  INFO -- default-Ubuntu: Setting up gnupg-l10n (2.2.19-3ubuntu2.1) ...
+I, [2022-02-17T20:42:10.747805 #16611]  INFO -- default-Ubuntu: Setting up patch (2.7.6-6) ...
+I, [2022-02-17T20:42:10.753982 #16611]  INFO -- default-Ubuntu: Setting up gpgconf (2.2.19-3ubuntu2.1) ...
+I, [2022-02-17T20:42:10.760411 #16611]  INFO -- default-Ubuntu: Setting up git-man (1:2.25.1-1ubuntu3.2) ...
+I, [2022-02-17T20:42:10.767538 #16611]  INFO -- default-Ubuntu: Setting up netbase (6.1) ...
+I, [2022-02-17T20:42:10.784764 #16611]  INFO -- default-Ubuntu: Setting up gpg (2.2.19-3ubuntu2.1) ...
+I, [2022-02-17T20:42:10.791716 #16611]  INFO -- default-Ubuntu: Setting up libgdbm6:amd64 (1.18.1-5) ...
+I, [2022-02-17T20:42:10.798762 #16611]  INFO -- default-Ubuntu: Setting up gnupg-utils (2.2.19-3ubuntu2.1) ...
+I, [2022-02-17T20:42:10.805690 #16611]  INFO -- default-Ubuntu: Setting up pinentry-curses (1.1.0-3build1) ...
+I, [2022-02-17T20:42:10.815106 #16611]  INFO -- default-Ubuntu: Setting up gpg-agent (2.2.19-3ubuntu2.1) ...
+I, [2022-02-17T20:42:10.941077 #16611]  INFO -- default-Ubuntu: Created symlink /etc/systemd/user/sockets.target.wants/gpg-agent-browser.socket → /usr/lib/systemd/user/gpg-agent-browser.socket.
+I, [2022-02-17T20:42:11.061090 #16611]  INFO -- default-Ubuntu: Created symlink /etc/systemd/user/sockets.target.wants/gpg-agent-extra.socket → /usr/lib/systemd/user/gpg-agent-extra.socket.
+I, [2022-02-17T20:42:11.178814 #16611]  INFO -- default-Ubuntu: Created symlink /etc/systemd/user/sockets.target.wants/gpg-agent-ssh.socket → /usr/lib/systemd/user/gpg-agent-ssh.socket.
+I, [2022-02-17T20:42:11.300366 #16611]  INFO -- default-Ubuntu: Created symlink /etc/systemd/user/sockets.target.wants/gpg-agent.socket → /usr/lib/systemd/user/gpg-agent.socket.
+I, [2022-02-17T20:42:11.307710 #16611]  INFO -- default-Ubuntu: Setting up gpgsm (2.2.19-3ubuntu2.1) ...
+I, [2022-02-17T20:42:11.328123 #16611]  INFO -- default-Ubuntu: Setting up dirmngr (2.2.19-3ubuntu2.1) ...
+I, [2022-02-17T20:42:11.453777 #16611]  INFO -- default-Ubuntu: Created symlink /etc/systemd/user/sockets.target.wants/dirmngr.socket → /usr/lib/systemd/user/dirmngr.socket.
+I, [2022-02-17T20:42:11.487160 #16611]  INFO -- default-Ubuntu: Setting up libgdbm-compat4:amd64 (1.18.1-5) ...
+I, [2022-02-17T20:42:11.493774 #16611]  INFO -- default-Ubuntu: Setting up gpg-wks-server (2.2.19-3ubuntu2.1) ...
+I, [2022-02-17T20:42:11.501049 #16611]  INFO -- default-Ubuntu: Setting up libperl5.30:amd64 (5.30.0-9ubuntu0.2) ...
+I, [2022-02-17T20:42:11.508695 #16611]  INFO -- default-Ubuntu: Setting up gpg-wks-client (2.2.19-3ubuntu2.1) ...
+I, [2022-02-17T20:42:11.515588 #16611]  INFO -- default-Ubuntu: Setting up perl (5.30.0-9ubuntu0.2) ...
+I, [2022-02-17T20:42:11.529464 #16611]  INFO -- default-Ubuntu: Setting up gnupg (2.2.19-3ubuntu2.1) ...
+I, [2022-02-17T20:42:11.537144 #16611]  INFO -- default-Ubuntu: Setting up liberror-perl (0.17029-1) ...
+I, [2022-02-17T20:42:11.544128 #16611]  INFO -- default-Ubuntu: Setting up git (1:2.25.1-1ubuntu3.2) ...
+I, [2022-02-17T20:42:11.569328 #16611]  INFO -- default-Ubuntu: Processing triggers for libc-bin (2.31-0ubuntu9.2) ...
+I, [2022-02-17T20:42:11.582724 #16611]  INFO -- default-Ubuntu: Processing triggers for mime-support (3.64ubuntu1) ...
+I, [2022-02-17T20:42:12.660901 #16611]  INFO -- default-Ubuntu: Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 61%Reading package lists... 61%Reading package lists... 62%Reading package lists... 62%Reading package lists... 68%Reading package lists... 71%Reading package lists... 71%Reading package lists... 76%Reading package lists... 76%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 90%Reading package lists... 90%Reading package lists... 95%Reading package lists... 95%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+I, [2022-02-17T20:42:12.861378 #16611]  INFO -- default-Ubuntu: Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+I, [2022-02-17T20:42:12.862485 #16611]  INFO -- default-Ubuntu: Reading state information... 0%Reading state information... 0%Reading state information... Done
+I, [2022-02-17T20:42:13.043093 #16611]  INFO -- default-Ubuntu: The following additional packages will be installed:
+I, [2022-02-17T20:42:13.043689 #16611]  INFO -- default-Ubuntu:   dbus-user-session dconf-gsettings-backend dconf-service
+I, [2022-02-17T20:42:13.044229 #16611]  INFO -- default-Ubuntu:   gir1.2-packagekitglib-1.0 glib-networking glib-networking-common
+I, [2022-02-17T20:42:13.044844 #16611]  INFO -- default-Ubuntu:   glib-networking-services gsettings-desktop-schemas iso-codes libappstream4
+I, [2022-02-17T20:42:13.045713 #16611]  INFO -- default-Ubuntu:   libcap2-bin libdconf1 libelf1 libglib2.0-bin libgstreamer1.0-0 liblmdb0
+I, [2022-02-17T20:42:13.046258 #16611]  INFO -- default-Ubuntu:   libpackagekit-glib2-18 libpam-cap libpolkit-agent-1-0 libpolkit-gobject-1-0
+I, [2022-02-17T20:42:13.047104 #16611]  INFO -- default-Ubuntu:   libproxy1v5 libsoup2.4-1 libstemmer0d libyaml-0-2 packagekit
+I, [2022-02-17T20:42:13.047655 #16611]  INFO -- default-Ubuntu:   packagekit-tools policykit-1 python-apt-common python3-apt
+I, [2022-02-17T20:42:13.048283 #16611]  INFO -- default-Ubuntu:   python3-distro-info python3-requests-unixsocket python3-software-properties
+I, [2022-02-17T20:42:13.048830 #16611]  INFO -- default-Ubuntu:   unattended-upgrades
+I, [2022-02-17T20:42:13.050456 #16611]  INFO -- default-Ubuntu: Suggested packages:
+I, [2022-02-17T20:42:13.050989 #16611]  INFO -- default-Ubuntu:   isoquery gstreamer1.0-tools appstream python3-apt-dbg python-apt-doc
+I, [2022-02-17T20:42:13.051460 #16611]  INFO -- default-Ubuntu:   bsd-mailx default-mta | mail-transport-agent needrestart powermgmt-base
+I, [2022-02-17T20:42:13.112610 #16611]  INFO -- default-Ubuntu: The following NEW packages will be installed:
+I, [2022-02-17T20:42:13.113449 #16611]  INFO -- default-Ubuntu:   dbus-user-session dconf-gsettings-backend dconf-service
+I, [2022-02-17T20:42:13.114024 #16611]  INFO -- default-Ubuntu:   gir1.2-packagekitglib-1.0 glib-networking glib-networking-common
+I, [2022-02-17T20:42:13.114697 #16611]  INFO -- default-Ubuntu:   glib-networking-services gsettings-desktop-schemas iso-codes libappstream4
+I, [2022-02-17T20:42:13.115451 #16611]  INFO -- default-Ubuntu:   libcap2-bin libdconf1 libelf1 libglib2.0-bin libgstreamer1.0-0 liblmdb0
+I, [2022-02-17T20:42:13.116004 #16611]  INFO -- default-Ubuntu:   libpackagekit-glib2-18 libpam-cap libpolkit-agent-1-0 libpolkit-gobject-1-0
+I, [2022-02-17T20:42:13.116890 #16611]  INFO -- default-Ubuntu:   libproxy1v5 libsoup2.4-1 libstemmer0d libyaml-0-2 packagekit
+I, [2022-02-17T20:42:13.117442 #16611]  INFO -- default-Ubuntu:   packagekit-tools policykit-1 python-apt-common python3-apt
+I, [2022-02-17T20:42:13.118085 #16611]  INFO -- default-Ubuntu:   python3-distro-info python3-requests-unixsocket python3-software-properties
+I, [2022-02-17T20:42:13.118730 #16611]  INFO -- default-Ubuntu:   software-properties-common unattended-upgrades
+I, [2022-02-17T20:42:13.126329 #16611]  INFO -- default-Ubuntu: 0 upgraded, 34 newly installed, 0 to remove and 9 not upgraded.
+I, [2022-02-17T20:42:13.127131 #16611]  INFO -- default-Ubuntu: Need to get 5506 kB of archives.
+I, [2022-02-17T20:42:13.127801 #16611]  INFO -- default-Ubuntu: After this operation, 32.8 MB of additional disk space will be used.
+I, [2022-02-17T20:42:13.677989 #16611]  INFO -- default-Ubuntu: 0% [Working]0% [Waiting for headers]                        Get:1 http://archive.ubuntu.com/ubuntu focal/main amd64 libcap2-bin amd64 1:2.32-1 [26.2 kB]
+I, [2022-02-17T20:42:14.120247 #16611]  INFO -- default-Ubuntu: 0% [1 libcap2-bin 0 B/26.2 kB 0%]                                 1% [Working]            Get:2 http://archive.ubuntu.com/ubuntu focal/main amd64 libelf1 amd64 0.176-1.1build1 [44.0 kB]
+I, [2022-02-17T20:42:14.355183 #16611]  INFO -- default-Ubuntu: 1% [2 libelf1 0 B/44.0 kB 0%]                             2% [Working]            Get:3 http://archive.ubuntu.com/ubuntu focal/main amd64 libpam-cap amd64 1:2.32-1 [8352 B]
+I, [2022-02-17T20:42:14.367933 #16611]  INFO -- default-Ubuntu: 2% [3 libpam-cap 0 B/8352 B 0%]                               3% [Working]            Get:4 http://archive.ubuntu.com/ubuntu focal/main amd64 libyaml-0-2 amd64 0.2.2-1 [48.9 kB]
+I, [2022-02-17T20:42:14.534554 #16611]  INFO -- default-Ubuntu: 3% [4 libyaml-0-2 0 B/48.9 kB 0%]                                 4% [Working]            Get:5 http://archive.ubuntu.com/ubuntu focal/main amd64 iso-codes all 4.4-1 [2695 kB]
+I, [2022-02-17T20:42:24.725597 #16611]  INFO -- default-Ubuntu: 4% [5 iso-codes 0 B/2695 kB 0%]7% [5 iso-codes 163 kB/2695 kB 6%]8% [5 iso-codes 291 kB/2695 kB 11%]11% [5 iso-codes 450 kB/2695 kB 17%]13% [5 iso-codes 606 kB/2695 kB 22%]15% [5 iso-codes 754 kB/2695 kB 28%]17% [5 iso-codes 914 kB/2695 kB 34%]20% [5 iso-codes 1059 kB/2695 kB 39%]22% [5 iso-codes 1196 kB/2695 kB 44%]24% [5 iso-codes 1335 kB/2695 kB 50%]26% [5 iso-codes 1482 kB/2695 kB 55%]                              251 kB/s 15s28% [5 iso-codes 1621 kB/2695 kB 60%]                              251 kB/s 14s30% [5 iso-codes 1780 kB/2695 kB 66%]                              251 kB/s 14s32% [5 iso-codes 1921 kB/2695 kB 71%]                              251 kB/s 13s34% [5 iso-codes 2033 kB/2695 kB 75%]                              251 kB/s 13s36% [5 iso-codes 2186 kB/2695 kB 81%]                              251 kB/s 12s38% [5 iso-codes 2302 kB/2695 kB 85%]                              251 kB/s 12s39% [5 iso-codes 2392 kB/2695 kB 89%]                              251 kB/s 11s41% [5 iso-codes 2516 kB/2695 kB 93%]                              251 kB/s 11s43% [5 iso-codes 2647 kB/2695 kB 98%]                              251 kB/s 10s43% [5 iso-codes 2695 kB/2695 kB 100%]                             251 kB/s 10s44% [Working]                                                      251 kB/s 10s                                                                               Get:6 http://archive.ubuntu.com/ubuntu focal/main amd64 liblmdb0 amd64 0.9.24-1 [44.6 kB]
+I, [2022-02-17T20:42:24.765342 #16611]  INFO -- default-Ubuntu: 44% [6 liblmdb0 0 B/44.6 kB 0%]                                    251 kB/s 10s45% [Working]                                                      251 kB/s 10s                                                                               Get:7 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libpolkit-gobject-1-0 amd64 0.105-26ubuntu1.2 [39.3 kB]
+I, [2022-02-17T20:42:24.772281 #16611]  INFO -- default-Ubuntu: 45% [7 libpolkit-gobject-1-0 0 B/39.3 kB 0%]                       251 kB/s 10s46% [Working]                                                      251 kB/s 10s                                                                               Get:8 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 python-apt-common all 2.0.0ubuntu0.20.04.7 [17.1 kB]
+I, [2022-02-17T20:42:24.777714 #16611]  INFO -- default-Ubuntu: 46% [8 python-apt-common 0 B/17.1 kB 0%]                           251 kB/s 10s47% [Working]                                                      251 kB/s 10s                                                                               Get:9 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 python3-apt amd64 2.0.0ubuntu0.20.04.7 [154 kB]
+I, [2022-02-17T20:42:25.129780 #16611]  INFO -- default-Ubuntu: 47% [9 python3-apt 0 B/154 kB 0%]                                  251 kB/s 10s50% [Working]                                                       251 kB/s 9s                                                                               Get:10 http://archive.ubuntu.com/ubuntu focal/main amd64 python3-distro-info all 0.23ubuntu1 [5924 B]
+I, [2022-02-17T20:42:25.161207 #16611]  INFO -- default-Ubuntu: 50% [10 python3-distro-info 0 B/5924 B 0%]                          251 kB/s 9s51% [Working]                                                       251 kB/s 9s                                                                               Get:11 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 dbus-user-session amd64 1.12.16-2ubuntu2.1 [9428 B]
+I, [2022-02-17T20:42:25.164362 #16611]  INFO -- default-Ubuntu: 51% [11 dbus-user-session 0 B/9428 B 0%]                            251 kB/s 9s51% [Working]                                                       251 kB/s 9s                                                                               Get:12 http://archive.ubuntu.com/ubuntu focal/main amd64 libdconf1 amd64 0.36.0-1 [37.4 kB]
+I, [2022-02-17T20:42:25.316393 #16611]  INFO -- default-Ubuntu: 51% [12 libdconf1 0 B/37.4 kB 0%]                                   251 kB/s 9s53% [Working]                                                       251 kB/s 9s                                                                               Get:13 http://archive.ubuntu.com/ubuntu focal/main amd64 dconf-service amd64 0.36.0-1 [29.8 kB]
+I, [2022-02-17T20:42:25.395997 #16611]  INFO -- default-Ubuntu: 53% [13 dconf-service 0 B/29.8 kB 0%]                               251 kB/s 9s54% [Working]                                                       251 kB/s 9s                                                                               Get:14 http://archive.ubuntu.com/ubuntu focal/main amd64 dconf-gsettings-backend amd64 0.36.0-1 [22.5 kB]
+I, [2022-02-17T20:42:25.465989 #16611]  INFO -- default-Ubuntu: 54% [14 dconf-gsettings-backend 0 B/22.5 kB 0%]                     251 kB/s 9s54% [Working]                                                       251 kB/s 9s                                                                               Get:15 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libpackagekit-glib2-18 amd64 1.1.13-2ubuntu1.1 [104 kB]
+I, [2022-02-17T20:42:25.833257 #16611]  INFO -- default-Ubuntu: 54% [15 libpackagekit-glib2-18 0 B/104 kB 0%]                       251 kB/s 9s57% [Working]                                                       267 kB/s 8s                                                                               Get:16 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 gir1.2-packagekitglib-1.0 amd64 1.1.13-2ubuntu1.1 [21.6 kB]
+I, [2022-02-17T20:42:25.908013 #16611]  INFO -- default-Ubuntu: 57% [16 gir1.2-packagekitglib-1.0 0 B/21.6 kB 0%]                   267 kB/s 8s57% [Working]                                                       267 kB/s 8s                                                                               Get:17 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libproxy1v5 amd64 0.4.15-10ubuntu1.2 [49.1 kB]
+I, [2022-02-17T20:42:26.084263 #16611]  INFO -- default-Ubuntu: 57% [17 libproxy1v5 0 B/49.1 kB 0%]                                 267 kB/s 8s59% [Working]                                                       267 kB/s 8s                                                                               Get:18 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 glib-networking-common all 2.64.2-1ubuntu0.1 [5040 B]
+I, [2022-02-17T20:42:26.094311 #16611]  INFO -- default-Ubuntu: 59% [18 glib-networking-common 0 B/5040 B 0%]                       267 kB/s 8s59% [Working]                                                       267 kB/s 8s                                                                               Get:19 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 glib-networking-services amd64 2.64.2-1ubuntu0.1 [10.6 kB]
+I, [2022-02-17T20:42:26.154350 #16611]  INFO -- default-Ubuntu: 59% [19 glib-networking-services 0 B/10.6 kB 0%]                    267 kB/s 8s60% [Working]                                                       267 kB/s 7s                                                                               Get:20 http://archive.ubuntu.com/ubuntu focal/main amd64 gsettings-desktop-schemas all 3.36.0-1ubuntu1 [29.0 kB]
+I, [2022-02-17T20:42:26.237141 #16611]  INFO -- default-Ubuntu: 60% [20 gsettings-desktop-schemas 0 B/29.0 kB 0%]                   267 kB/s 7s61% [Working]                                                       267 kB/s 7s                                                                               Get:21 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 glib-networking amd64 2.64.2-1ubuntu0.1 [58.2 kB]
+I, [2022-02-17T20:42:26.426967 #16611]  INFO -- default-Ubuntu: 61% [21 glib-networking 0 B/58.2 kB 0%]                             267 kB/s 7s63% [Working]                                                       267 kB/s 7s                                                                               Get:22 http://archive.ubuntu.com/ubuntu focal/main amd64 libsoup2.4-1 amd64 2.70.0-1 [262 kB]
+I, [2022-02-17T20:42:27.266271 #16611]  INFO -- default-Ubuntu: 63% [22 libsoup2.4-1 0 B/262 kB 0%]                                 267 kB/s 7s65% [22 libsoup2.4-1 156 kB/262 kB 60%]                             267 kB/s 7s67% [Working]                                                       267 kB/s 6s                                                                               Get:23 http://archive.ubuntu.com/ubuntu focal/main amd64 libstemmer0d amd64 0+svn585-2 [61.7 kB]
+I, [2022-02-17T20:42:27.472056 #16611]  INFO -- default-Ubuntu: 67% [23 libstemmer0d 0 B/61.7 kB 0%]                                267 kB/s 6s68% [Working]                                                       267 kB/s 6s                                                                               Get:24 http://archive.ubuntu.com/ubuntu focal/main amd64 libappstream4 amd64 0.12.10-2 [129 kB]
+I, [2022-02-17T20:42:27.975320 #16611]  INFO -- default-Ubuntu: 68% [24 libappstream4 0 B/129 kB 0%]                                267 kB/s 6s70% [24 libappstream4 124 kB/129 kB 96%]                            267 kB/s 5s71% [Working]                                                       267 kB/s 5s                                                                               Get:25 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libglib2.0-bin amd64 2.64.6-1~ubuntu20.04.4 [72.6 kB]
+I, [2022-02-17T20:42:28.246157 #16611]  INFO -- default-Ubuntu: 71% [25 libglib2.0-bin 0 B/72.6 kB 0%]                              267 kB/s 5s73% [Working]                                                       267 kB/s 5s                                                                               Get:26 http://archive.ubuntu.com/ubuntu focal/main amd64 libgstreamer1.0-0 amd64 1.16.2-2 [890 kB]
+I, [2022-02-17T20:42:31.688390 #16611]  INFO -- default-Ubuntu: 73% [26 libgstreamer1.0-0 0 B/890 kB 0%]                            267 kB/s 5s75% [26 libgstreamer1.0-0 160 kB/890 kB 18%]                        267 kB/s 5s77% [26 libgstreamer1.0-0 303 kB/890 kB 34%]                        267 kB/s 4s79% [26 libgstreamer1.0-0 456 kB/890 kB 51%]                        267 kB/s 3s81% [26 libgstreamer1.0-0 583 kB/890 kB 65%]                        267 kB/s 3s82% [26 libgstreamer1.0-0 643 kB/890 kB 72%]                        267 kB/s 3s84% [26 libgstreamer1.0-0 781 kB/890 kB 88%]                        267 kB/s 2s86% [Working]                                                       267 kB/s 2s                                                                               Get:27 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libpolkit-agent-1-0 amd64 0.105-26ubuntu1.2 [15.3 kB]
+I, [2022-02-17T20:42:31.691000 #16611]  INFO -- default-Ubuntu: 86% [27 libpolkit-agent-1-0 0 B/15.3 kB 0%]                         267 kB/s 2s87% [Working]                                                       267 kB/s 2s                                                                               Get:28 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 policykit-1 amd64 0.105-26ubuntu1.2 [83.9 kB]
+I, [2022-02-17T20:42:31.996808 #16611]  INFO -- default-Ubuntu: 87% [28 policykit-1 0 B/83.9 kB 0%]                                 267 kB/s 2s89% [Working]                                                       274 kB/s 1s                                                                               Get:29 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 packagekit amd64 1.1.13-2ubuntu1.1 [408 kB]
+I, [2022-02-17T20:42:33.542099 #16611]  INFO -- default-Ubuntu: 89% [29 packagekit 0 B/408 kB 0%]                                   274 kB/s 1s91% [29 packagekit 154 kB/408 kB 38%]                               274 kB/s 1s93% [29 packagekit 285 kB/408 kB 70%]                               274 kB/s 0s95% [29 packagekit 408 kB/408 kB 100%]                              274 kB/s 0s95% [Working]                                                       274 kB/s 0s                                                                               Get:30 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 packagekit-tools amd64 1.1.13-2ubuntu1.1 [32.8 kB]
+I, [2022-02-17T20:42:33.591354 #16611]  INFO -- default-Ubuntu: 95% [30 packagekit-tools 0 B/32.8 kB 0%]                            274 kB/s 0s96% [Working]                                                       274 kB/s 0s                                                                               Get:31 http://archive.ubuntu.com/ubuntu focal/main amd64 python3-requests-unixsocket all 0.2.0-2 [7272 B]
+I, [2022-02-17T20:42:33.592966 #16611]  INFO -- default-Ubuntu: 96% [31 python3-requests-unixsocket 0 B/7272 B 0%]                  274 kB/s 0s97% [Working]                                                       274 kB/s 0s                                                                               Get:32 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 python3-software-properties all 0.99.9.8 [24.9 kB]
+I, [2022-02-17T20:42:33.730131 #16611]  INFO -- default-Ubuntu: 97% [32 python3-software-properties 0 B/24.9 kB 0%]                 274 kB/s 0s98% [Working]                                                       274 kB/s 0s                                                                               Get:33 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 software-properties-common all 0.99.9.8 [10.6 kB]
+I, [2022-02-17T20:42:33.747438 #16611]  INFO -- default-Ubuntu: 98% [33 software-properties-common 0 B/10.6 kB 0%]                  274 kB/s 0s99% [Working]                                                       274 kB/s 0s                                                                               Get:34 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 unattended-upgrades all 2.3ubuntu0.1 [48.7 kB]
+I, [2022-02-17T20:42:33.881417 #16611]  INFO -- default-Ubuntu: 99% [34 unattended-upgrades 0 B/48.7 kB 0%]                         274 kB/s 0s100% [Working]                                                      274 kB/s 0s                                                                               Fetched 5506 kB in 21s (265 kB/s)
+I, [2022-02-17T20:42:33.937436 #16611]  INFO -- default-Ubuntu: perl: warning: Setting locale failed.
+I, [2022-02-17T20:42:33.938049 #16611]  INFO -- default-Ubuntu: perl: warning: Please check that your locale settings:
+I, [2022-02-17T20:42:33.938748 #16611]  INFO -- default-Ubuntu: 	LANGUAGE = (unset),
+I, [2022-02-17T20:42:33.939566 #16611]  INFO -- default-Ubuntu: 	LC_ALL = (unset),
+I, [2022-02-17T20:42:33.940332 #16611]  INFO -- default-Ubuntu: 	LANG = "en_US.UTF-8"
+I, [2022-02-17T20:42:33.940936 #16611]  INFO -- default-Ubuntu:     are supported and installed on your system.
+I, [2022-02-17T20:42:33.941854 #16611]  INFO -- default-Ubuntu: perl: warning: Falling back to the standard locale ("C").
+I, [2022-02-17T20:42:35.914364 #16611]  INFO -- default-Ubuntu: Extracting templates from packages: 88%Extracting templates from packages: 100%
+I, [2022-02-17T20:42:35.920365 #16611]  INFO -- default-Ubuntu: Preconfiguring packages ...
+I, [2022-02-17T20:42:36.000041 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package libcap2-bin.
+I, [2022-02-17T20:42:36.027977 #16611]  INFO -- default-Ubuntu: (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 15468 files and directories currently installed.)
+I, [2022-02-17T20:42:36.029594 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../00-libcap2-bin_1%3a2.32-1_amd64.deb ...
+I, [2022-02-17T20:42:36.032233 #16611]  INFO -- default-Ubuntu: Unpacking libcap2-bin (1:2.32-1) ...
+I, [2022-02-17T20:42:36.057073 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package libelf1:amd64.
+I, [2022-02-17T20:42:36.059187 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../01-libelf1_0.176-1.1build1_amd64.deb ...
+I, [2022-02-17T20:42:36.064683 #16611]  INFO -- default-Ubuntu: Unpacking libelf1:amd64 (0.176-1.1build1) ...
+I, [2022-02-17T20:42:36.094776 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package libpam-cap:amd64.
+I, [2022-02-17T20:42:36.098874 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../02-libpam-cap_1%3a2.32-1_amd64.deb ...
+I, [2022-02-17T20:42:36.101440 #16611]  INFO -- default-Ubuntu: Unpacking libpam-cap:amd64 (1:2.32-1) ...
+I, [2022-02-17T20:42:36.125372 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package libyaml-0-2:amd64.
+I, [2022-02-17T20:42:36.127705 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../03-libyaml-0-2_0.2.2-1_amd64.deb ...
+I, [2022-02-17T20:42:36.131474 #16611]  INFO -- default-Ubuntu: Unpacking libyaml-0-2:amd64 (0.2.2-1) ...
+I, [2022-02-17T20:42:36.156622 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package iso-codes.
+I, [2022-02-17T20:42:36.158729 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../04-iso-codes_4.4-1_all.deb ...
+I, [2022-02-17T20:42:36.161773 #16611]  INFO -- default-Ubuntu: Unpacking iso-codes (4.4-1) ...
+I, [2022-02-17T20:42:36.512392 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package liblmdb0:amd64.
+I, [2022-02-17T20:42:36.514924 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../05-liblmdb0_0.9.24-1_amd64.deb ...
+I, [2022-02-17T20:42:36.518229 #16611]  INFO -- default-Ubuntu: Unpacking liblmdb0:amd64 (0.9.24-1) ...
+I, [2022-02-17T20:42:36.550409 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package libpolkit-gobject-1-0:amd64.
+I, [2022-02-17T20:42:36.552655 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../06-libpolkit-gobject-1-0_0.105-26ubuntu1.2_amd64.deb ...
+I, [2022-02-17T20:42:36.556937 #16611]  INFO -- default-Ubuntu: Unpacking libpolkit-gobject-1-0:amd64 (0.105-26ubuntu1.2) ...
+I, [2022-02-17T20:42:36.587124 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package python-apt-common.
+I, [2022-02-17T20:42:36.589286 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../07-python-apt-common_2.0.0ubuntu0.20.04.7_all.deb ...
+I, [2022-02-17T20:42:36.592123 #16611]  INFO -- default-Ubuntu: Unpacking python-apt-common (2.0.0ubuntu0.20.04.7) ...
+I, [2022-02-17T20:42:36.618340 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package python3-apt.
+I, [2022-02-17T20:42:36.620842 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../08-python3-apt_2.0.0ubuntu0.20.04.7_amd64.deb ...
+I, [2022-02-17T20:42:36.624001 #16611]  INFO -- default-Ubuntu: Unpacking python3-apt (2.0.0ubuntu0.20.04.7) ...
+I, [2022-02-17T20:42:36.658593 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package python3-distro-info.
+I, [2022-02-17T20:42:36.660719 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../09-python3-distro-info_0.23ubuntu1_all.deb ...
+I, [2022-02-17T20:42:36.664308 #16611]  INFO -- default-Ubuntu: Unpacking python3-distro-info (0.23ubuntu1) ...
+I, [2022-02-17T20:42:36.693077 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package dbus-user-session.
+I, [2022-02-17T20:42:36.695217 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../10-dbus-user-session_1.12.16-2ubuntu2.1_amd64.deb ...
+I, [2022-02-17T20:42:36.698374 #16611]  INFO -- default-Ubuntu: Unpacking dbus-user-session (1.12.16-2ubuntu2.1) ...
+I, [2022-02-17T20:42:36.721237 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package libdconf1:amd64.
+I, [2022-02-17T20:42:36.723370 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../11-libdconf1_0.36.0-1_amd64.deb ...
+I, [2022-02-17T20:42:36.726052 #16611]  INFO -- default-Ubuntu: Unpacking libdconf1:amd64 (0.36.0-1) ...
+I, [2022-02-17T20:42:36.749340 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package dconf-service.
+I, [2022-02-17T20:42:36.751591 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../12-dconf-service_0.36.0-1_amd64.deb ...
+I, [2022-02-17T20:42:36.754573 #16611]  INFO -- default-Ubuntu: Unpacking dconf-service (0.36.0-1) ...
+I, [2022-02-17T20:42:36.779343 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package dconf-gsettings-backend:amd64.
+I, [2022-02-17T20:42:36.781760 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../13-dconf-gsettings-backend_0.36.0-1_amd64.deb ...
+I, [2022-02-17T20:42:36.785278 #16611]  INFO -- default-Ubuntu: Unpacking dconf-gsettings-backend:amd64 (0.36.0-1) ...
+I, [2022-02-17T20:42:36.807984 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package libpackagekit-glib2-18:amd64.
+I, [2022-02-17T20:42:36.810870 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../14-libpackagekit-glib2-18_1.1.13-2ubuntu1.1_amd64.deb ...
+I, [2022-02-17T20:42:36.813538 #16611]  INFO -- default-Ubuntu: Unpacking libpackagekit-glib2-18:amd64 (1.1.13-2ubuntu1.1) ...
+I, [2022-02-17T20:42:36.839299 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package gir1.2-packagekitglib-1.0.
+I, [2022-02-17T20:42:36.841563 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../15-gir1.2-packagekitglib-1.0_1.1.13-2ubuntu1.1_amd64.deb ...
+I, [2022-02-17T20:42:36.844400 #16611]  INFO -- default-Ubuntu: Unpacking gir1.2-packagekitglib-1.0 (1.1.13-2ubuntu1.1) ...
+I, [2022-02-17T20:42:36.866309 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package libproxy1v5:amd64.
+I, [2022-02-17T20:42:36.868416 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../16-libproxy1v5_0.4.15-10ubuntu1.2_amd64.deb ...
+I, [2022-02-17T20:42:36.871122 #16611]  INFO -- default-Ubuntu: Unpacking libproxy1v5:amd64 (0.4.15-10ubuntu1.2) ...
+I, [2022-02-17T20:42:36.892629 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package glib-networking-common.
+I, [2022-02-17T20:42:36.894805 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../17-glib-networking-common_2.64.2-1ubuntu0.1_all.deb ...
+I, [2022-02-17T20:42:36.897740 #16611]  INFO -- default-Ubuntu: Unpacking glib-networking-common (2.64.2-1ubuntu0.1) ...
+I, [2022-02-17T20:42:36.915956 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package glib-networking-services.
+I, [2022-02-17T20:42:36.918414 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../18-glib-networking-services_2.64.2-1ubuntu0.1_amd64.deb ...
+I, [2022-02-17T20:42:36.921416 #16611]  INFO -- default-Ubuntu: Unpacking glib-networking-services (2.64.2-1ubuntu0.1) ...
+I, [2022-02-17T20:42:36.940170 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package gsettings-desktop-schemas.
+I, [2022-02-17T20:42:36.942897 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../19-gsettings-desktop-schemas_3.36.0-1ubuntu1_all.deb ...
+I, [2022-02-17T20:42:36.946043 #16611]  INFO -- default-Ubuntu: Unpacking gsettings-desktop-schemas (3.36.0-1ubuntu1) ...
+I, [2022-02-17T20:42:36.972206 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package glib-networking:amd64.
+I, [2022-02-17T20:42:36.974670 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../20-glib-networking_2.64.2-1ubuntu0.1_amd64.deb ...
+I, [2022-02-17T20:42:36.980732 #16611]  INFO -- default-Ubuntu: Unpacking glib-networking:amd64 (2.64.2-1ubuntu0.1) ...
+I, [2022-02-17T20:42:37.012382 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package libsoup2.4-1:amd64.
+I, [2022-02-17T20:42:37.014541 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../21-libsoup2.4-1_2.70.0-1_amd64.deb ...
+I, [2022-02-17T20:42:37.016880 #16611]  INFO -- default-Ubuntu: Unpacking libsoup2.4-1:amd64 (2.70.0-1) ...
+I, [2022-02-17T20:42:37.058051 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package libstemmer0d:amd64.
+I, [2022-02-17T20:42:37.060402 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../22-libstemmer0d_0+svn585-2_amd64.deb ...
+I, [2022-02-17T20:42:37.063398 #16611]  INFO -- default-Ubuntu: Unpacking libstemmer0d:amd64 (0+svn585-2) ...
+I, [2022-02-17T20:42:37.089863 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package libappstream4:amd64.
+I, [2022-02-17T20:42:37.092161 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../23-libappstream4_0.12.10-2_amd64.deb ...
+I, [2022-02-17T20:42:37.094638 #16611]  INFO -- default-Ubuntu: Unpacking libappstream4:amd64 (0.12.10-2) ...
+I, [2022-02-17T20:42:37.123116 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package libglib2.0-bin.
+I, [2022-02-17T20:42:37.125479 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../24-libglib2.0-bin_2.64.6-1~ubuntu20.04.4_amd64.deb ...
+I, [2022-02-17T20:42:37.128979 #16611]  INFO -- default-Ubuntu: Unpacking libglib2.0-bin (2.64.6-1~ubuntu20.04.4) ...
+I, [2022-02-17T20:42:37.166226 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package libgstreamer1.0-0:amd64.
+I, [2022-02-17T20:42:37.168816 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../25-libgstreamer1.0-0_1.16.2-2_amd64.deb ...
+I, [2022-02-17T20:42:37.172492 #16611]  INFO -- default-Ubuntu: Unpacking libgstreamer1.0-0:amd64 (1.16.2-2) ...
+I, [2022-02-17T20:42:37.285191 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package libpolkit-agent-1-0:amd64.
+I, [2022-02-17T20:42:37.287279 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../26-libpolkit-agent-1-0_0.105-26ubuntu1.2_amd64.deb ...
+I, [2022-02-17T20:42:37.290282 #16611]  INFO -- default-Ubuntu: Unpacking libpolkit-agent-1-0:amd64 (0.105-26ubuntu1.2) ...
+I, [2022-02-17T20:42:37.314101 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package policykit-1.
+I, [2022-02-17T20:42:37.317140 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../27-policykit-1_0.105-26ubuntu1.2_amd64.deb ...
+I, [2022-02-17T20:42:37.327497 #16611]  INFO -- default-Ubuntu: Unpacking policykit-1 (0.105-26ubuntu1.2) ...
+I, [2022-02-17T20:42:37.370244 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package packagekit.
+I, [2022-02-17T20:42:37.372493 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../28-packagekit_1.1.13-2ubuntu1.1_amd64.deb ...
+I, [2022-02-17T20:42:37.382698 #16611]  INFO -- default-Ubuntu: Unpacking packagekit (1.1.13-2ubuntu1.1) ...
+I, [2022-02-17T20:42:37.431801 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package packagekit-tools.
+I, [2022-02-17T20:42:37.436917 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../29-packagekit-tools_1.1.13-2ubuntu1.1_amd64.deb ...
+I, [2022-02-17T20:42:37.439724 #16611]  INFO -- default-Ubuntu: Unpacking packagekit-tools (1.1.13-2ubuntu1.1) ...
+I, [2022-02-17T20:42:37.463199 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package python3-requests-unixsocket.
+I, [2022-02-17T20:42:37.466802 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../30-python3-requests-unixsocket_0.2.0-2_all.deb ...
+I, [2022-02-17T20:42:37.469496 #16611]  INFO -- default-Ubuntu: Unpacking python3-requests-unixsocket (0.2.0-2) ...
+I, [2022-02-17T20:42:37.490953 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package python3-software-properties.
+I, [2022-02-17T20:42:37.493136 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../31-python3-software-properties_0.99.9.8_all.deb ...
+I, [2022-02-17T20:42:37.495923 #16611]  INFO -- default-Ubuntu: Unpacking python3-software-properties (0.99.9.8) ...
+I, [2022-02-17T20:42:37.523291 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package software-properties-common.
+I, [2022-02-17T20:42:37.525574 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../32-software-properties-common_0.99.9.8_all.deb ...
+I, [2022-02-17T20:42:37.528144 #16611]  INFO -- default-Ubuntu: Unpacking software-properties-common (0.99.9.8) ...
+I, [2022-02-17T20:42:37.556871 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package unattended-upgrades.
+I, [2022-02-17T20:42:37.559120 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../33-unattended-upgrades_2.3ubuntu0.1_all.deb ...
+I, [2022-02-17T20:42:37.566123 #16611]  INFO -- default-Ubuntu: Unpacking unattended-upgrades (2.3ubuntu0.1) ...
+I, [2022-02-17T20:42:37.609403 #16611]  INFO -- default-Ubuntu: Setting up liblmdb0:amd64 (0.9.24-1) ...
+I, [2022-02-17T20:42:37.616841 #16611]  INFO -- default-Ubuntu: Setting up libproxy1v5:amd64 (0.4.15-10ubuntu1.2) ...
+I, [2022-02-17T20:42:37.623841 #16611]  INFO -- default-Ubuntu: Setting up libyaml-0-2:amd64 (0.2.2-1) ...
+I, [2022-02-17T20:42:37.631822 #16611]  INFO -- default-Ubuntu: Setting up libpackagekit-glib2-18:amd64 (1.1.13-2ubuntu1.1) ...
+I, [2022-02-17T20:42:37.638686 #16611]  INFO -- default-Ubuntu: Setting up libcap2-bin (1:2.32-1) ...
+I, [2022-02-17T20:42:37.645777 #16611]  INFO -- default-Ubuntu: Setting up libdconf1:amd64 (0.36.0-1) ...
+I, [2022-02-17T20:42:37.655774 #16611]  INFO -- default-Ubuntu: Setting up python3-requests-unixsocket (0.2.0-2) ...
+I, [2022-02-17T20:42:37.820819 #16611]  INFO -- default-Ubuntu: Setting up gir1.2-packagekitglib-1.0 (1.1.13-2ubuntu1.1) ...
+I, [2022-02-17T20:42:37.840595 #16611]  INFO -- default-Ubuntu: Setting up dbus-user-session (1.12.16-2ubuntu2.1) ...
+I, [2022-02-17T20:42:37.849727 #16611]  INFO -- default-Ubuntu: Setting up python-apt-common (2.0.0ubuntu0.20.04.7) ...
+I, [2022-02-17T20:42:37.856578 #16611]  INFO -- default-Ubuntu: Setting up libstemmer0d:amd64 (0+svn585-2) ...
+I, [2022-02-17T20:42:37.863399 #16611]  INFO -- default-Ubuntu: Setting up glib-networking-common (2.64.2-1ubuntu0.1) ...
+I, [2022-02-17T20:42:37.870783 #16611]  INFO -- default-Ubuntu: Setting up libelf1:amd64 (0.176-1.1build1) ...
+I, [2022-02-17T20:42:37.878043 #16611]  INFO -- default-Ubuntu: Setting up libpam-cap:amd64 (1:2.32-1) ...
+I, [2022-02-17T20:42:38.026729 #16611]  INFO -- default-Ubuntu: Setting up python3-distro-info (0.23ubuntu1) ...
+I, [2022-02-17T20:42:38.190743 #16611]  INFO -- default-Ubuntu: Setting up iso-codes (4.4-1) ...
+I, [2022-02-17T20:42:38.210772 #16611]  INFO -- default-Ubuntu: Setting up libpolkit-gobject-1-0:amd64 (0.105-26ubuntu1.2) ...
+I, [2022-02-17T20:42:38.217326 #16611]  INFO -- default-Ubuntu: Setting up libgstreamer1.0-0:amd64 (1.16.2-2) ...
+I, [2022-02-17T20:42:38.224595 #16611]  INFO -- default-Ubuntu: Setcap worked! gst-ptp-helper is not suid!
+I, [2022-02-17T20:42:38.227106 #16611]  INFO -- default-Ubuntu: Setting up glib-networking-services (2.64.2-1ubuntu0.1) ...
+I, [2022-02-17T20:42:38.234179 #16611]  INFO -- default-Ubuntu: Setting up python3-apt (2.0.0ubuntu0.20.04.7) ...
+I, [2022-02-17T20:42:38.440481 #16611]  INFO -- default-Ubuntu: Setting up libglib2.0-bin (2.64.6-1~ubuntu20.04.4) ...
+I, [2022-02-17T20:42:38.447502 #16611]  INFO -- default-Ubuntu: Setting up dconf-service (0.36.0-1) ...
+I, [2022-02-17T20:42:38.454252 #16611]  INFO -- default-Ubuntu: Setting up unattended-upgrades (2.3ubuntu0.1) ...
+I, [2022-02-17T20:42:38.578467 #16611]  INFO -- default-Ubuntu: 
+I, [2022-02-17T20:42:38.579196 #16611]  INFO -- default-Ubuntu: Creating config file /etc/apt/apt.conf.d/20auto-upgrades with new version
+I, [2022-02-17T20:42:38.654775 #16611]  INFO -- default-Ubuntu: 
+I, [2022-02-17T20:42:38.655483 #16611]  INFO -- default-Ubuntu: Creating config file /etc/apt/apt.conf.d/50unattended-upgrades with new version
+I, [2022-02-17T20:42:38.883440 #16611]  INFO -- default-Ubuntu: Created symlink /etc/systemd/system/multi-user.target.wants/unattended-upgrades.service → /lib/systemd/system/unattended-upgrades.service.
+I, [2022-02-17T20:42:39.004472 #16611]  INFO -- default-Ubuntu: Setting up python3-software-properties (0.99.9.8) ...
+I, [2022-02-17T20:42:39.183812 #16611]  INFO -- default-Ubuntu: Setting up libpolkit-agent-1-0:amd64 (0.105-26ubuntu1.2) ...
+I, [2022-02-17T20:42:39.206006 #16611]  INFO -- default-Ubuntu: Setting up policykit-1 (0.105-26ubuntu1.2) ...
+I, [2022-02-17T20:42:39.238825 #16611]  INFO -- default-Ubuntu: Setting up dconf-gsettings-backend:amd64 (0.36.0-1) ...
+I, [2022-02-17T20:42:39.245682 #16611]  INFO -- default-Ubuntu: Setting up gsettings-desktop-schemas (3.36.0-1ubuntu1) ...
+I, [2022-02-17T20:42:39.255099 #16611]  INFO -- default-Ubuntu: Processing triggers for dbus (1.12.16-2ubuntu2.1) ...
+I, [2022-02-17T20:42:39.261547 #16611]  INFO -- default-Ubuntu: Processing triggers for libglib2.0-0:amd64 (2.64.6-1~ubuntu20.04.4) ...
+I, [2022-02-17T20:42:39.282122 #16611]  INFO -- default-Ubuntu: Processing triggers for libc-bin (2.31-0ubuntu9.2) ...
+I, [2022-02-17T20:42:39.293810 #16611]  INFO -- default-Ubuntu: Processing triggers for systemd (245.4-4ubuntu3.15) ...
+I, [2022-02-17T20:42:39.300142 #16611]  INFO -- default-Ubuntu: Setting up glib-networking:amd64 (2.64.2-1ubuntu0.1) ...
+I, [2022-02-17T20:42:39.307777 #16611]  INFO -- default-Ubuntu: Setting up libsoup2.4-1:amd64 (2.70.0-1) ...
+I, [2022-02-17T20:42:39.316974 #16611]  INFO -- default-Ubuntu: Setting up libappstream4:amd64 (0.12.10-2) ...
+I, [2022-02-17T20:42:39.324173 #16611]  INFO -- default-Ubuntu: Setting up packagekit (1.1.13-2ubuntu1.1) ...
+I, [2022-02-17T20:42:39.344726 #16611]  INFO -- default-Ubuntu: invoke-rc.d: could not determine current runlevel
+I, [2022-02-17T20:42:39.348249 #16611]  INFO -- default-Ubuntu: invoke-rc.d: policy-rc.d denied execution of force-reload.
+I, [2022-02-17T20:42:39.350712 #16611]  INFO -- default-Ubuntu: Failed to open connection to "system" message bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+I, [2022-02-17T20:42:39.472041 #16611]  INFO -- default-Ubuntu: Created symlink /etc/systemd/user/sockets.target.wants/pk-debconf-helper.socket → /usr/lib/systemd/user/pk-debconf-helper.socket.
+I, [2022-02-17T20:42:39.508297 #16611]  INFO -- default-Ubuntu: Setting up packagekit-tools (1.1.13-2ubuntu1.1) ...
+I, [2022-02-17T20:42:39.516265 #16611]  INFO -- default-Ubuntu: Setting up software-properties-common (0.99.9.8) ...
+I, [2022-02-17T20:42:39.698926 #16611]  INFO -- default-Ubuntu: Processing triggers for libc-bin (2.31-0ubuntu9.2) ...
+I, [2022-02-17T20:42:39.710527 #16611]  INFO -- default-Ubuntu: Processing triggers for dbus (1.12.16-2ubuntu2.1) ...
+I, [2022-02-17T20:42:39.746603 #16611]  INFO -- default-Ubuntu: bash: line 101: [apt-cache: command not found
+I, [2022-02-17T20:42:40.445961 #16611]  INFO -- default-Ubuntu: 0% [Working]0% [Waiting for headers] [Waiting for headers]                                              Hit:1 http://archive.ubuntu.com/ubuntu focal InRelease
+I, [2022-02-17T20:42:40.501880 #16611]  INFO -- default-Ubuntu:                                               0% [Waiting for headers]                        Hit:2 http://security.ubuntu.com/ubuntu focal-security InRelease
+I, [2022-02-17T20:42:40.664888 #16611]  INFO -- default-Ubuntu: 0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]                        Hit:3 http://archive.ubuntu.com/ubuntu focal-updates InRelease
+I, [2022-02-17T20:42:40.896213 #16611]  INFO -- default-Ubuntu: 0% [Waiting for headers]0% [Waiting for headers]                        Hit:4 http://archive.ubuntu.com/ubuntu focal-backports InRelease
+I, [2022-02-17T20:42:41.937619 #16611]  INFO -- default-Ubuntu:                         0% [Working]20% [Working]             Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 61%Reading package lists... 61%Reading package lists... 61%Reading package lists... 61%Reading package lists... 69%Reading package lists... 71%Reading package lists... 71%Reading package lists... 76%Reading package lists... 76%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 90%Reading package lists... 90%Reading package lists... 95%Reading package lists... 95%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+I, [2022-02-17T20:42:43.033802 #16611]  INFO -- default-Ubuntu: Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 61%Reading package lists... 61%Reading package lists... 61%Reading package lists... 61%Reading package lists... 62%Reading package lists... 71%Reading package lists... 71%Reading package lists... 76%Reading package lists... 76%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 90%Reading package lists... 90%Reading package lists... 95%Reading package lists... 95%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+I, [2022-02-17T20:42:43.254102 #16611]  INFO -- default-Ubuntu: Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+I, [2022-02-17T20:42:43.255366 #16611]  INFO -- default-Ubuntu: Reading state information... 0%Reading state information... 0%Reading state information... Done
+I, [2022-02-17T20:42:43.448809 #16611]  INFO -- default-Ubuntu: The following additional packages will be installed:
+I, [2022-02-17T20:42:43.450992 #16611]  INFO -- default-Ubuntu:   ieee-data python3-argcomplete python3-cffi-backend python3-crypto
+I, [2022-02-17T20:42:43.451621 #16611]  INFO -- default-Ubuntu:   python3-cryptography python3-distutils python3-dnspython python3-httplib2
+I, [2022-02-17T20:42:43.452124 #16611]  INFO -- default-Ubuntu:   python3-jinja2 python3-jmespath python3-kerberos python3-lib2to3
+I, [2022-02-17T20:42:43.452682 #16611]  INFO -- default-Ubuntu:   python3-libcloud python3-lockfile python3-markupsafe python3-netaddr
+I, [2022-02-17T20:42:43.453243 #16611]  INFO -- default-Ubuntu:   python3-ntlm-auth python3-requests-kerberos python3-requests-ntlm
+I, [2022-02-17T20:42:43.453830 #16611]  INFO -- default-Ubuntu:   python3-selinux python3-simplejson python3-winrm python3-xmltodict
+I, [2022-02-17T20:42:43.454576 #16611]  INFO -- default-Ubuntu:   python3-yaml
+I, [2022-02-17T20:42:43.456352 #16611]  INFO -- default-Ubuntu: Suggested packages:
+I, [2022-02-17T20:42:43.456918 #16611]  INFO -- default-Ubuntu:   cowsay sshpass python-cryptography-doc python3-cryptography-vectors
+I, [2022-02-17T20:42:43.457512 #16611]  INFO -- default-Ubuntu:   python-jinja2-doc python-lockfile-doc ipython3 python-netaddr-docs
+I, [2022-02-17T20:42:43.552698 #16611]  INFO -- default-Ubuntu: The following NEW packages will be installed:
+I, [2022-02-17T20:42:43.554151 #16611]  INFO -- default-Ubuntu:   ansible ieee-data python3-argcomplete python3-cffi-backend python3-crypto
+I, [2022-02-17T20:42:43.554757 #16611]  INFO -- default-Ubuntu:   python3-cryptography python3-distutils python3-dnspython python3-httplib2
+I, [2022-02-17T20:42:43.555233 #16611]  INFO -- default-Ubuntu:   python3-jinja2 python3-jmespath python3-kerberos python3-lib2to3
+I, [2022-02-17T20:42:43.555737 #16611]  INFO -- default-Ubuntu:   python3-libcloud python3-lockfile python3-markupsafe python3-netaddr
+I, [2022-02-17T20:42:43.556587 #16611]  INFO -- default-Ubuntu:   python3-ntlm-auth python3-requests-kerberos python3-requests-ntlm
+I, [2022-02-17T20:42:43.557426 #16611]  INFO -- default-Ubuntu:   python3-selinux python3-simplejson python3-winrm python3-xmltodict
+I, [2022-02-17T20:42:43.558275 #16611]  INFO -- default-Ubuntu:   python3-yaml
+I, [2022-02-17T20:42:43.565318 #16611]  INFO -- default-Ubuntu: 0 upgraded, 25 newly installed, 0 to remove and 9 not upgraded.
+I, [2022-02-17T20:42:43.565899 #16611]  INFO -- default-Ubuntu: Need to get 10.5 MB of archives.
+I, [2022-02-17T20:42:43.566383 #16611]  INFO -- default-Ubuntu: After this operation, 95.6 MB of additional disk space will be used.
+I, [2022-02-17T20:42:44.042389 #16611]  INFO -- default-Ubuntu: 0% [Working]            Get:1 http://archive.ubuntu.com/ubuntu focal/main amd64 python3-cffi-backend amd64 1.14.0-1build1 [68.7 kB]
+I, [2022-02-17T20:42:44.773896 #16611]  INFO -- default-Ubuntu: 0% [1 python3-cffi-backend 0 B/68.7 kB 0%]0% [1 python3-cffi-backend 62.1 kB/68.7 kB 90%]                                               1% [Working]            Get:2 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 python3-yaml amd64 5.3.1-1ubuntu0.1 [136 kB]
+I, [2022-02-17T20:42:45.231361 #16611]  INFO -- default-Ubuntu: 1% [2 python3-yaml 0 B/136 kB 0%]                                 3% [Working]            Get:3 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 python3-cryptography amd64 2.8-3ubuntu0.1 [211 kB]
+I, [2022-02-17T20:42:46.030233 #16611]  INFO -- default-Ubuntu: 3% [3 python3-cryptography 0 B/211 kB 0%]5% [3 python3-cryptography 189 kB/211 kB 90%]                                             6% [Working]            Get:4 http://archive.ubuntu.com/ubuntu focal/main amd64 python3-markupsafe amd64 1.1.0-1build2 [13.9 kB]
+I, [2022-02-17T20:42:46.033102 #16611]  INFO -- default-Ubuntu: 6% [4 python3-markupsafe 0 B/13.9 kB 0%]                                        6% [Working]            Get:5 http://archive.ubuntu.com/ubuntu focal/main amd64 python3-jinja2 all 2.10.1-2 [95.5 kB]
+I, [2022-02-17T20:42:46.365445 #16611]  INFO -- default-Ubuntu: 6% [5 python3-jinja2 0 B/95.5 kB 0%]                                    8% [Working]            Get:6 http://archive.ubuntu.com/ubuntu focal/main amd64 python3-crypto amd64 2.6.1-13ubuntu2 [237 kB]
+I, [2022-02-17T20:42:47.252377 #16611]  INFO -- default-Ubuntu: 8% [6 python3-crypto 0 B/237 kB 0%]9% [6 python3-crypto 173 kB/237 kB 73%]                                       11% [Working]             Get:7 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 python3-lib2to3 all 3.8.10-0ubuntu1~20.04 [76.3 kB]
+I, [2022-02-17T20:42:47.513402 #16611]  INFO -- default-Ubuntu: 11% [7 python3-lib2to3 0 B/76.3 kB 0%]                                      12% [Working]             Get:8 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 python3-distutils all 3.8.10-0ubuntu1~20.04 [141 kB]
+I, [2022-02-17T20:42:48.084103 #16611]  INFO -- default-Ubuntu: 12% [8 python3-distutils 0 B/141 kB 0%]13% [8 python3-distutils 131 kB/141 kB 93%]                                           14% [Working]             Get:9 http://archive.ubuntu.com/ubuntu focal/main amd64 python3-dnspython all 1.16.0-1build1 [89.1 kB]
+I, [2022-02-17T20:42:48.405068 #16611]  INFO -- default-Ubuntu: 14% [9 python3-dnspython 0 B/89.1 kB 0%]                                        15% [Working]             Get:10 http://archive.ubuntu.com/ubuntu focal/main amd64 python3-httplib2 all 0.14.0-1ubuntu1 [28.9 kB]
+I, [2022-02-17T20:42:48.422401 #16611]  INFO -- default-Ubuntu: 15% [10 python3-httplib2 0 B/28.9 kB 0%]                                        16% [Working]             Get:11 http://archive.ubuntu.com/ubuntu focal/main amd64 ieee-data all 20180805.1 [1589 kB]
+I, [2022-02-17T20:42:54.429451 #16611]  INFO -- default-Ubuntu: 16% [11 ieee-data 0 B/1589 kB 0%]17% [11 ieee-data 144 kB/1589 kB 9%]19% [11 ieee-data 298 kB/1589 kB 19%]20% [11 ieee-data 437 kB/1589 kB 27%]                              241 kB/s 37s21% [11 ieee-data 552 kB/1589 kB 35%]                              241 kB/s 36s22% [11 ieee-data 675 kB/1589 kB 42%]                              241 kB/s 36s23% [11 ieee-data 818 kB/1589 kB 52%]                              241 kB/s 35s24% [11 ieee-data 944 kB/1589 kB 59%]                              241 kB/s 34s25% [11 ieee-data 1080 kB/1589 kB 68%]                             241 kB/s 34s26% [11 ieee-data 1197 kB/1589 kB 75%]                             241 kB/s 33s27% [11 ieee-data 1342 kB/1589 kB 84%]                             241 kB/s 33s28% [11 ieee-data 1491 kB/1589 kB 94%]                             241 kB/s 32s29% [Working]                                                      241 kB/s 32s                                                                               Get:12 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 python3-netaddr all 0.7.19-3ubuntu1 [236 kB]
+I, [2022-02-17T20:42:55.084469 #16611]  INFO -- default-Ubuntu: 29% [12 python3-netaddr 0 B/236 kB 0%]                             241 kB/s 32s31% [12 python3-netaddr 191 kB/236 kB 81%]                         241 kB/s 31s32% [Working]                                                      241 kB/s 31s                                                                               Get:13 http://archive.ubuntu.com/ubuntu focal/universe amd64 ansible all 2.9.6+dfsg-1 [5794 kB]
+I, [2022-02-17T20:43:20.522447 #16611]  INFO -- default-Ubuntu: 32% [13 ansible 0 B/5794 kB 0%]                                    241 kB/s 31s33% [13 ansible 145 kB/5794 kB 3%]                                 241 kB/s 30s34% [13 ansible 295 kB/5794 kB 5%]                                 273 kB/s 26s35% [13 ansible 453 kB/5794 kB 8%]                                 273 kB/s 25s36% [13 ansible 535 kB/5794 kB 9%]                                 273 kB/s 25s37% [13 ansible 657 kB/5794 kB 11%]                                273 kB/s 25s38% [13 ansible 793 kB/5794 kB 14%]                                273 kB/s 24s39% [13 ansible 950 kB/5794 kB 16%]                                273 kB/s 24s40% [13 ansible 1084 kB/5794 kB 19%]                               273 kB/s 23s41% [13 ansible 1239 kB/5794 kB 21%]                               273 kB/s 23s43% [13 ansible 1383 kB/5794 kB 24%]                               273 kB/s 22s44% [13 ansible 1531 kB/5794 kB 26%]                               273 kB/s 22s45% [13 ansible 1664 kB/5794 kB 29%]                               273 kB/s 21s46% [13 ansible 1781 kB/5794 kB 31%]                               273 kB/s 21s47% [13 ansible 1911 kB/5794 kB 33%]                               269 kB/s 20s48% [13 ansible 2046 kB/5794 kB 35%]                               269 kB/s 20s49% [13 ansible 2193 kB/5794 kB 38%]                               269 kB/s 19s50% [13 ansible 2351 kB/5794 kB 41%]                               269 kB/s 19s51% [13 ansible 2487 kB/5794 kB 43%]                               269 kB/s 18s52% [13 ansible 2635 kB/5794 kB 45%]                               269 kB/s 18s53% [13 ansible 2779 kB/5794 kB 48%]                               269 kB/s 17s54% [13 ansible 2930 kB/5794 kB 51%]                               269 kB/s 17s55% [13 ansible 3081 kB/5794 kB 53%]                               269 kB/s 16s57% [13 ansible 3237 kB/5794 kB 56%]                               269 kB/s 16s57% [13 ansible 3336 kB/5794 kB 58%]                               269 kB/s 15s58% [13 ansible 3473 kB/5794 kB 60%]                               269 kB/s 15s59% [13 ansible 3565 kB/5794 kB 62%]                               275 kB/s 14s60% [13 ansible 3649 kB/5794 kB 63%]                               275 kB/s 14s61% [13 ansible 3760 kB/5794 kB 65%]                               275 kB/s 13s62% [13 ansible 3903 kB/5794 kB 67%]                               275 kB/s 13s63% [13 ansible 4022 kB/5794 kB 69%]                               275 kB/s 12s64% [13 ansible 4140 kB/5794 kB 71%]                               275 kB/s 12s65% [13 ansible 4269 kB/5794 kB 74%]                               275 kB/s 11s66% [13 ansible 4406 kB/5794 kB 76%]                               275 kB/s 11s67% [13 ansible 4537 kB/5794 kB 78%]                               275 kB/s 10s68% [13 ansible 4692 kB/5794 kB 81%]                               275 kB/s 10s69% [13 ansible 4854 kB/5794 kB 84%]                                275 kB/s 9s70% [13 ansible 4983 kB/5794 kB 86%]                                275 kB/s 9s71% [13 ansible 5138 kB/5794 kB 89%]                                261 kB/s 9s72% [13 ansible 5290 kB/5794 kB 91%]                                261 kB/s 8s74% [13 ansible 5440 kB/5794 kB 94%]                                261 kB/s 8s75% [13 ansible 5581 kB/5794 kB 96%]                                261 kB/s 7s75% [13 ansible 5683 kB/5794 kB 98%]                                261 kB/s 7s76% [13 ansible 5790 kB/5794 kB 100%]                               261 kB/s 6s76% [13 ansible 5790 kB/5794 kB 100%]                               261 kB/s 6s76% [13 ansible 5790 kB/5794 kB 100%]                               261 kB/s 6s76% [13 ansible 5790 kB/5794 kB 100%]                               261 kB/s 6s76% [13 ansible 5790 kB/5794 kB 100%]                               261 kB/s 6s76% [13 ansible 5790 kB/5794 kB 100%]                               261 kB/s 6s76% [13 ansible 5790 kB/5794 kB 100%]                               261 kB/s 6s76% [13 ansible 5790 kB/5794 kB 100%]                              108 kB/s 16s77% [Working]                                                      108 kB/s 16s                                                                               Get:14 http://archive.ubuntu.com/ubuntu focal/universe amd64 python3-argcomplete all 1.8.1-1.3ubuntu1 [27.2 kB]
+I, [2022-02-17T20:43:20.596371 #16611]  INFO -- default-Ubuntu: 77% [14 python3-argcomplete 0 B/27.2 kB 0%]                        108 kB/s 16s78% [Working]                                                      108 kB/s 15s                                                                               Get:15 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 python3-jmespath all 0.9.4-2ubuntu1 [21.5 kB]
+I, [2022-02-17T20:43:20.598662 #16611]  INFO -- default-Ubuntu: 78% [15 python3-jmespath 0 B/21.5 kB 0%]                           108 kB/s 15s79% [Working]                                                      108 kB/s 15s                                                                               Get:16 http://archive.ubuntu.com/ubuntu focal/universe amd64 python3-kerberos amd64 1.1.14-3.1build1 [22.6 kB]
+I, [2022-02-17T20:43:20.600728 #16611]  INFO -- default-Ubuntu: 79% [16 python3-kerberos 0 B/22.6 kB 0%]                           108 kB/s 15s80% [Working]                                                      108 kB/s 15s                                                                               Get:17 http://archive.ubuntu.com/ubuntu focal/main amd64 python3-lockfile all 1:0.12.2-2ubuntu2 [14.6 kB]
+I, [2022-02-17T20:43:20.603257 #16611]  INFO -- default-Ubuntu: 80% [17 python3-lockfile 0 B/14.6 kB 0%]                           108 kB/s 15s81% [Working]                                                      108 kB/s 15s                                                                               Get:18 http://archive.ubuntu.com/ubuntu focal/main amd64 python3-simplejson amd64 3.16.0-2ubuntu2 [50.8 kB]
+I, [2022-02-17T20:43:20.605515 #16611]  INFO -- default-Ubuntu: 81% [18 python3-simplejson 0 B/50.8 kB 0%]                         108 kB/s 15s82% [Working]                                                      108 kB/s 14s                                                                               Get:19 http://archive.ubuntu.com/ubuntu focal/universe amd64 python3-libcloud all 2.8.0-1 [1403 kB]
+I, [2022-02-17T20:43:24.194486 #16611]  INFO -- default-Ubuntu: 82% [19 python3-libcloud 0 B/1403 kB 0%]                           108 kB/s 14s90% [19 python3-libcloud 1012 kB/1403 kB 72%]                       108 kB/s 5s91% [19 python3-libcloud 1171 kB/1403 kB 83%]                       108 kB/s 4s92% [19 python3-libcloud 1289 kB/1403 kB 92%]                       108 kB/s 2s93% [19 python3-libcloud 1394 kB/1403 kB 99%]                       108 kB/s 2s93% [19 python3-libcloud 1394 kB/1403 kB 99%]                       108 kB/s 2s93% [19 python3-libcloud 1394 kB/1403 kB 99%]                       108 kB/s 2s93% [19 python3-libcloud 1394 kB/1403 kB 99%]                       108 kB/s 2s94% [Working]                                                       108 kB/s 1s                                                                               Get:20 http://archive.ubuntu.com/ubuntu focal/universe amd64 python3-ntlm-auth all 1.1.0-1 [19.6 kB]
+I, [2022-02-17T20:43:24.281600 #16611]  INFO -- default-Ubuntu: 94% [20 python3-ntlm-auth 0 B/19.6 kB 0%]                           108 kB/s 1s95% [Working]                                                       108 kB/s 1s                                                                               Get:21 http://archive.ubuntu.com/ubuntu focal/universe amd64 python3-requests-kerberos all 0.12.0-2 [11.9 kB]
+I, [2022-02-17T20:43:24.284843 #16611]  INFO -- default-Ubuntu: 95% [21 python3-requests-kerberos 0 B/11.9 kB 0%]                   108 kB/s 1s95% [Working]                                                       108 kB/s 1s                                                                               Get:22 http://archive.ubuntu.com/ubuntu focal/universe amd64 python3-requests-ntlm all 1.1.0-1 [6004 B]
+I, [2022-02-17T20:43:24.286531 #16611]  INFO -- default-Ubuntu: 95% [22 python3-requests-ntlm 0 B/6004 B 0%]                        108 kB/s 1s96% [Working]                                                       108 kB/s 1s                                                                               Get:23 http://archive.ubuntu.com/ubuntu focal/universe amd64 python3-selinux amd64 3.0-1build2 [139 kB]
+I, [2022-02-17T20:43:24.288974 #16611]  INFO -- default-Ubuntu: 96% [23 python3-selinux 0 B/139 kB 0%]                              108 kB/s 1s98% [Working]                                                       108 kB/s 0s                                                                               Get:24 http://archive.ubuntu.com/ubuntu focal/universe amd64 python3-xmltodict all 0.12.0-1 [12.6 kB]
+I, [2022-02-17T20:43:24.290704 #16611]  INFO -- default-Ubuntu: 98% [24 python3-xmltodict 0 B/12.6 kB 0%]                           108 kB/s 0s99% [Working]                                                       108 kB/s 0s                                                                               Get:25 http://archive.ubuntu.com/ubuntu focal/universe amd64 python3-winrm all 0.3.0-2 [21.7 kB]
+I, [2022-02-17T20:43:24.292189 #16611]  INFO -- default-Ubuntu: 99% [25 python3-winrm 0 B/21.7 kB 0%]                               108 kB/s 0s100% [Working]                                                      108 kB/s 0s                                                                               Fetched 10.5 MB in 41s (257 kB/s)
+I, [2022-02-17T20:43:24.351085 #16611]  INFO -- default-Ubuntu: perl: warning: Setting locale failed.
+I, [2022-02-17T20:43:24.351772 #16611]  INFO -- default-Ubuntu: perl: warning: Please check that your locale settings:
+I, [2022-02-17T20:43:24.352446 #16611]  INFO -- default-Ubuntu: 	LANGUAGE = (unset),
+I, [2022-02-17T20:43:24.353235 #16611]  INFO -- default-Ubuntu: 	LC_ALL = (unset),
+I, [2022-02-17T20:43:24.354053 #16611]  INFO -- default-Ubuntu: 	LANG = "en_US.UTF-8"
+I, [2022-02-17T20:43:24.354707 #16611]  INFO -- default-Ubuntu:     are supported and installed on your system.
+I, [2022-02-17T20:43:24.355299 #16611]  INFO -- default-Ubuntu: perl: warning: Falling back to the standard locale ("C").
+I, [2022-02-17T20:43:25.437061 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package python3-cffi-backend.
+I, [2022-02-17T20:43:25.451577 #16611]  INFO -- default-Ubuntu: (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 17082 files and directories currently installed.)
+I, [2022-02-17T20:43:25.452836 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../00-python3-cffi-backend_1.14.0-1build1_amd64.deb ...
+I, [2022-02-17T20:43:25.456855 #16611]  INFO -- default-Ubuntu: Unpacking python3-cffi-backend (1.14.0-1build1) ...
+I, [2022-02-17T20:43:25.484878 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package python3-yaml.
+I, [2022-02-17T20:43:25.487020 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../01-python3-yaml_5.3.1-1ubuntu0.1_amd64.deb ...
+I, [2022-02-17T20:43:25.489895 #16611]  INFO -- default-Ubuntu: Unpacking python3-yaml (5.3.1-1ubuntu0.1) ...
+I, [2022-02-17T20:43:25.527814 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package python3-cryptography.
+I, [2022-02-17T20:43:25.530005 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../02-python3-cryptography_2.8-3ubuntu0.1_amd64.deb ...
+I, [2022-02-17T20:43:25.540291 #16611]  INFO -- default-Ubuntu: Unpacking python3-cryptography (2.8-3ubuntu0.1) ...
+I, [2022-02-17T20:43:25.591010 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package python3-markupsafe.
+I, [2022-02-17T20:43:25.593179 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../03-python3-markupsafe_1.1.0-1build2_amd64.deb ...
+I, [2022-02-17T20:43:25.595754 #16611]  INFO -- default-Ubuntu: Unpacking python3-markupsafe (1.1.0-1build2) ...
+I, [2022-02-17T20:43:25.618049 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package python3-jinja2.
+I, [2022-02-17T20:43:25.626951 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../04-python3-jinja2_2.10.1-2_all.deb ...
+I, [2022-02-17T20:43:25.632183 #16611]  INFO -- default-Ubuntu: Unpacking python3-jinja2 (2.10.1-2) ...
+I, [2022-02-17T20:43:25.667383 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package python3-crypto.
+I, [2022-02-17T20:43:25.670155 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../05-python3-crypto_2.6.1-13ubuntu2_amd64.deb ...
+I, [2022-02-17T20:43:25.672825 #16611]  INFO -- default-Ubuntu: Unpacking python3-crypto (2.6.1-13ubuntu2) ...
+I, [2022-02-17T20:43:25.734072 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package python3-lib2to3.
+I, [2022-02-17T20:43:25.737345 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../06-python3-lib2to3_3.8.10-0ubuntu1~20.04_all.deb ...
+I, [2022-02-17T20:43:25.740178 #16611]  INFO -- default-Ubuntu: Unpacking python3-lib2to3 (3.8.10-0ubuntu1~20.04) ...
+I, [2022-02-17T20:43:25.777063 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package python3-distutils.
+I, [2022-02-17T20:43:25.779461 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../07-python3-distutils_3.8.10-0ubuntu1~20.04_all.deb ...
+I, [2022-02-17T20:43:25.781956 #16611]  INFO -- default-Ubuntu: Unpacking python3-distutils (3.8.10-0ubuntu1~20.04) ...
+I, [2022-02-17T20:43:25.838051 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package python3-dnspython.
+I, [2022-02-17T20:43:25.838726 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../08-python3-dnspython_1.16.0-1build1_all.deb ...
+I, [2022-02-17T20:43:25.841164 #16611]  INFO -- default-Ubuntu: Unpacking python3-dnspython (1.16.0-1build1) ...
+I, [2022-02-17T20:43:25.883377 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package python3-httplib2.
+I, [2022-02-17T20:43:25.885728 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../09-python3-httplib2_0.14.0-1ubuntu1_all.deb ...
+I, [2022-02-17T20:43:25.888416 #16611]  INFO -- default-Ubuntu: Unpacking python3-httplib2 (0.14.0-1ubuntu1) ...
+I, [2022-02-17T20:43:25.913325 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package ieee-data.
+I, [2022-02-17T20:43:25.915521 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../10-ieee-data_20180805.1_all.deb ...
+I, [2022-02-17T20:43:25.923475 #16611]  INFO -- default-Ubuntu: Unpacking ieee-data (20180805.1) ...
+I, [2022-02-17T20:43:26.118400 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package python3-netaddr.
+I, [2022-02-17T20:43:26.120811 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../11-python3-netaddr_0.7.19-3ubuntu1_all.deb ...
+I, [2022-02-17T20:43:26.123993 #16611]  INFO -- default-Ubuntu: Unpacking python3-netaddr (0.7.19-3ubuntu1) ...
+I, [2022-02-17T20:43:26.182887 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package ansible.
+I, [2022-02-17T20:43:26.185099 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../12-ansible_2.9.6+dfsg-1_all.deb ...
+I, [2022-02-17T20:43:26.188214 #16611]  INFO -- default-Ubuntu: Unpacking ansible (2.9.6+dfsg-1) ...
+I, [2022-02-17T20:43:27.310520 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package python3-argcomplete.
+I, [2022-02-17T20:43:27.314741 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../13-python3-argcomplete_1.8.1-1.3ubuntu1_all.deb ...
+I, [2022-02-17T20:43:27.318558 #16611]  INFO -- default-Ubuntu: Unpacking python3-argcomplete (1.8.1-1.3ubuntu1) ...
+I, [2022-02-17T20:43:27.345810 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package python3-jmespath.
+I, [2022-02-17T20:43:27.348912 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../14-python3-jmespath_0.9.4-2ubuntu1_all.deb ...
+I, [2022-02-17T20:43:27.353062 #16611]  INFO -- default-Ubuntu: Unpacking python3-jmespath (0.9.4-2ubuntu1) ...
+I, [2022-02-17T20:43:27.376946 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package python3-kerberos.
+I, [2022-02-17T20:43:27.379868 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../15-python3-kerberos_1.1.14-3.1build1_amd64.deb ...
+I, [2022-02-17T20:43:27.383056 #16611]  INFO -- default-Ubuntu: Unpacking python3-kerberos (1.1.14-3.1build1) ...
+I, [2022-02-17T20:43:27.409449 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package python3-lockfile.
+I, [2022-02-17T20:43:27.412257 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../16-python3-lockfile_1%3a0.12.2-2ubuntu2_all.deb ...
+I, [2022-02-17T20:43:27.416524 #16611]  INFO -- default-Ubuntu: Unpacking python3-lockfile (1:0.12.2-2ubuntu2) ...
+I, [2022-02-17T20:43:27.442167 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package python3-simplejson.
+I, [2022-02-17T20:43:27.445520 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../17-python3-simplejson_3.16.0-2ubuntu2_amd64.deb ...
+I, [2022-02-17T20:43:27.449060 #16611]  INFO -- default-Ubuntu: Unpacking python3-simplejson (3.16.0-2ubuntu2) ...
+I, [2022-02-17T20:43:27.491859 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package python3-libcloud.
+I, [2022-02-17T20:43:27.494875 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../18-python3-libcloud_2.8.0-1_all.deb ...
+I, [2022-02-17T20:43:27.498649 #16611]  INFO -- default-Ubuntu: Unpacking python3-libcloud (2.8.0-1) ...
+I, [2022-02-17T20:43:27.945306 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package python3-ntlm-auth.
+I, [2022-02-17T20:43:27.949036 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../19-python3-ntlm-auth_1.1.0-1_all.deb ...
+I, [2022-02-17T20:43:27.952959 #16611]  INFO -- default-Ubuntu: Unpacking python3-ntlm-auth (1.1.0-1) ...
+I, [2022-02-17T20:43:27.977938 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package python3-requests-kerberos.
+I, [2022-02-17T20:43:27.980829 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../20-python3-requests-kerberos_0.12.0-2_all.deb ...
+I, [2022-02-17T20:43:27.984094 #16611]  INFO -- default-Ubuntu: Unpacking python3-requests-kerberos (0.12.0-2) ...
+I, [2022-02-17T20:43:28.009095 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package python3-requests-ntlm.
+I, [2022-02-17T20:43:28.012085 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../21-python3-requests-ntlm_1.1.0-1_all.deb ...
+I, [2022-02-17T20:43:28.015758 #16611]  INFO -- default-Ubuntu: Unpacking python3-requests-ntlm (1.1.0-1) ...
+I, [2022-02-17T20:43:28.040495 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package python3-selinux.
+I, [2022-02-17T20:43:28.044068 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../22-python3-selinux_3.0-1build2_amd64.deb ...
+I, [2022-02-17T20:43:28.047511 #16611]  INFO -- default-Ubuntu: Unpacking python3-selinux (3.0-1build2) ...
+I, [2022-02-17T20:43:28.088998 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package python3-xmltodict.
+I, [2022-02-17T20:43:28.091862 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../23-python3-xmltodict_0.12.0-1_all.deb ...
+I, [2022-02-17T20:43:28.095162 #16611]  INFO -- default-Ubuntu: Unpacking python3-xmltodict (0.12.0-1) ...
+I, [2022-02-17T20:43:28.120715 #16611]  INFO -- default-Ubuntu: Selecting previously unselected package python3-winrm.
+I, [2022-02-17T20:43:28.125237 #16611]  INFO -- default-Ubuntu: Preparing to unpack .../24-python3-winrm_0.3.0-2_all.deb ...
+I, [2022-02-17T20:43:28.128736 #16611]  INFO -- default-Ubuntu: Unpacking python3-winrm (0.3.0-2) ...
+I, [2022-02-17T20:43:28.170215 #16611]  INFO -- default-Ubuntu: Setting up python3-lockfile (1:0.12.2-2ubuntu2) ...
+I, [2022-02-17T20:43:28.355509 #16611]  INFO -- default-Ubuntu: Setting up python3-ntlm-auth (1.1.0-1) ...
+I, [2022-02-17T20:43:28.566518 #16611]  INFO -- default-Ubuntu: Setting up python3-kerberos (1.1.14-3.1build1) ...
+I, [2022-02-17T20:43:28.573808 #16611]  INFO -- default-Ubuntu: Setting up python3-yaml (5.3.1-1ubuntu0.1) ...
+I, [2022-02-17T20:43:28.792098 #16611]  INFO -- default-Ubuntu: Setting up python3-markupsafe (1.1.0-1build2) ...
+I, [2022-02-17T20:43:28.980838 #16611]  INFO -- default-Ubuntu: Setting up python3-simplejson (3.16.0-2ubuntu2) ...
+I, [2022-02-17T20:43:29.190378 #16611]  INFO -- default-Ubuntu: Setting up python3-xmltodict (0.12.0-1) ...
+I, [2022-02-17T20:43:29.404679 #16611]  INFO -- default-Ubuntu: Setting up python3-jinja2 (2.10.1-2) ...
+I, [2022-02-17T20:43:29.650889 #16611]  INFO -- default-Ubuntu: Setting up python3-jmespath (0.9.4-2ubuntu1) ...
+I, [2022-02-17T20:43:29.845710 #16611]  INFO -- default-Ubuntu: Setting up ieee-data (20180805.1) ...
+I, [2022-02-17T20:43:29.857294 #16611]  INFO -- default-Ubuntu: Setting up python3-dnspython (1.16.0-1build1) ...
+I, [2022-02-17T20:43:30.130178 #16611]  INFO -- default-Ubuntu: Setting up python3-selinux (3.0-1build2) ...
+I, [2022-02-17T20:43:30.329885 #16611]  INFO -- default-Ubuntu: Setting up python3-httplib2 (0.14.0-1ubuntu1) ...
+I, [2022-02-17T20:43:30.516423 #16611]  INFO -- default-Ubuntu: Setting up python3-crypto (2.6.1-13ubuntu2) ...
+I, [2022-02-17T20:43:30.817276 #16611]  INFO -- default-Ubuntu: Setting up python3-argcomplete (1.8.1-1.3ubuntu1) ...
+I, [2022-02-17T20:43:31.011036 #16611]  INFO -- default-Ubuntu: Setting up python3-lib2to3 (3.8.10-0ubuntu1~20.04) ...
+I, [2022-02-17T20:43:31.136193 #16611]  INFO -- default-Ubuntu: Setting up python3-cffi-backend (1.14.0-1build1) ...
+I, [2022-02-17T20:43:31.144040 #16611]  INFO -- default-Ubuntu: Setting up python3-distutils (3.8.10-0ubuntu1~20.04) ...
+I, [2022-02-17T20:43:31.298527 #16611]  INFO -- default-Ubuntu: Setting up python3-libcloud (2.8.0-1) ...
+I, [2022-02-17T20:43:32.484845 #16611]  INFO -- default-Ubuntu: Setting up python3-cryptography (2.8-3ubuntu0.1) ...
+I, [2022-02-17T20:43:32.783714 #16611]  INFO -- default-Ubuntu: Setting up python3-requests-kerberos (0.12.0-2) ...
+I, [2022-02-17T20:43:32.982092 #16611]  INFO -- default-Ubuntu: Setting up python3-netaddr (0.7.19-3ubuntu1) ...
+I, [2022-02-17T20:43:33.219669 #16611]  INFO -- default-Ubuntu: Setting up ansible (2.9.6+dfsg-1) ...
+I, [2022-02-17T20:43:41.389855 #16611]  INFO -- default-Ubuntu: Setting up python3-requests-ntlm (1.1.0-1) ...
+I, [2022-02-17T20:43:41.581476 #16611]  INFO -- default-Ubuntu: Setting up python3-winrm (0.3.0-2) ...
+I, [2022-02-17T20:43:41.893471 #16611]  INFO -- default-Ubuntu: -----> Installing Chef Omnibus to install busser to run tests
+I, [2022-02-17T20:43:41.894707 #16611]  INFO -- default-Ubuntu: downloading https://www.chef.io/chef/install.sh
+I, [2022-02-17T20:43:41.895837 #16611]  INFO -- default-Ubuntu:   to file /tmp/install.sh
+I, [2022-02-17T20:43:41.897438 #16611]  INFO -- default-Ubuntu: trying wget...
+I, [2022-02-17T20:43:48.470479 #16611]  INFO -- default-Ubuntu: Transferring files to <default-Ubuntu>
+I, [2022-02-17T20:43:50.710469 #16611]  INFO -- default-Ubuntu: [0;34mUsing /etc/ansible/ansible.cfg as config file[0m
+I, [2022-02-17T20:43:51.215622 #16611]  INFO -- default-Ubuntu: [0;34m[0m
+I, [2022-02-17T20:43:51.216355 #16611]  INFO -- default-Ubuntu: PLAY [localhost] ***************************************************************
+I, [2022-02-17T20:43:51.238484 #16611]  INFO -- default-Ubuntu: 
+I, [2022-02-17T20:43:51.239054 #16611]  INFO -- default-Ubuntu: TASK [Gathering Facts] *********************************************************
+I, [2022-02-17T20:43:55.257644 #16611]  INFO -- default-Ubuntu: [0;32mok: [localhost][0m
+I, [2022-02-17T20:43:55.289125 #16611]  INFO -- default-Ubuntu: [0;32m[0m
+I, [2022-02-17T20:43:55.289771 #16611]  INFO -- default-Ubuntu: TASK [web-balancer : Instala servidor Nginx no Debian/Ubuntu] ******************
+I, [2022-02-17T20:44:35.782530 #16611]  INFO -- default-Ubuntu: The following additional packages will be installed:
+I, [2022-02-17T20:44:35.783187 #16611]  INFO -- default-Ubuntu:   fontconfig-config fonts-dejavu-core iproute2 libatm1 libfontconfig1
+I, [2022-02-17T20:44:35.783911 #16611]  INFO -- default-Ubuntu:   libfreetype6 libgd3 libjbig0 libjpeg-turbo8 libjpeg8 libmnl0
+I, [2022-02-17T20:44:35.784612 #16611]  INFO -- default-Ubuntu:   libnginx-mod-http-image-filter libnginx-mod-http-xslt-filter
+I, [2022-02-17T20:44:35.785193 #16611]  INFO -- default-Ubuntu:   libnginx-mod-mail libnginx-mod-stream libpng16-16 libtiff5 libwebp6 libxpm4
+I, [2022-02-17T20:44:35.785948 #16611]  INFO -- default-Ubuntu:   libxslt1.1 libxtables12 nginx-common nginx-core
+I, [2022-02-17T20:44:35.787443 #16611]  INFO -- default-Ubuntu: Suggested packages:
+I, [2022-02-17T20:44:35.789867 #16611]  INFO -- default-Ubuntu:   iproute2-doc libgd-tools fcgiwrap nginx-doc ssl-cert
+I, [2022-02-17T20:44:35.791066 #16611]  INFO -- default-Ubuntu: The following NEW packages will be installed:
+I, [2022-02-17T20:44:35.792794 #16611]  INFO -- default-Ubuntu:   fontconfig-config fonts-dejavu-core iproute2 libatm1 libfontconfig1
+I, [2022-02-17T20:44:35.794040 #16611]  INFO -- default-Ubuntu:   libfreetype6 libgd3 libjbig0 libjpeg-turbo8 libjpeg8 libmnl0
+I, [2022-02-17T20:44:35.794495 #16611]  INFO -- default-Ubuntu:   libnginx-mod-http-image-filter libnginx-mod-http-xslt-filter
+I, [2022-02-17T20:44:35.794517 #16611]  INFO -- default-Ubuntu:   libnginx-mod-mail libnginx-mod-stream libpng16-16 libtiff5 libwebp6 libxpm4
+I, [2022-02-17T20:44:35.794532 #16611]  INFO -- default-Ubuntu:   libxslt1.1 libxtables12 nginx nginx-common nginx-core
+I, [2022-02-17T20:44:35.794547 #16611]  INFO -- default-Ubuntu: 0 upgraded, 24 newly installed, 0 to remove and 9 not upgraded.
+I, [2022-02-17T20:44:35.799204 #16611]  INFO -- default-Ubuntu: [0;33mchanged: [localhost] => {"cache_update_time": 1645128181, "cache_updated": false, "changed": true, "stderr": "", "stderr_lines": [], "stdout": "Reading package lists...\nBuilding dependency tree...\nReading state information...\nThe following additional packages will be installed:\n  fontconfig-config fonts-dejavu-core iproute2 libatm1 libfontconfig1\n  libfreetype6 libgd3 libjbig0 libjpeg-turbo8 libjpeg8 libmnl0\n  libnginx-mod-http-image-filter libnginx-mod-http-xslt-filter\n  libnginx-mod-mail libnginx-mod-stream libpng16-16 libtiff5 libwebp6 libxpm4\n  libxslt1.1 libxtables12 nginx-common nginx-core\nSuggested packages:\n  iproute2-doc libgd-tools fcgiwrap nginx-doc ssl-cert\nThe following NEW packages will be installed:\n  fontconfig-config fonts-dejavu-core iproute2 libatm1 libfontconfig1\n  libfreetype6 libgd3 libjbig0 libjpeg-turbo8 libjpeg8 libmnl0\n  libnginx-mod-http-image-filter libnginx-mod-http-xslt-filter\n  libnginx-mod-mail libnginx-mod-stream libpng16-16 libtiff5 libwebp6 libxpm4\n  libxslt1.1 libxtables12 nginx nginx-common nginx-core\n0 upgraded, 24 newly installed, 0 to remove and 9 not upgraded.\nNeed to get 4023 kB of archives.\nAfter this operation, 12.7 MB of additional disk space will be used.\nGet:1 http://archive.ubuntu.com/ubuntu focal/main amd64 libmnl0 amd64 1.0.4-2 [12.3 kB]\nGet:2 http://archive.ubuntu.com/ubuntu focal/main amd64 libxtables12 amd64 1.8.4-3ubuntu2 [28.4 kB]\nGet:3 http://archive.ubuntu.com/ubuntu focal/main amd64 iproute2 amd64 5.5.0-1ubuntu1 [858 kB]\nGet:4 http://archive.ubuntu.com/ubuntu focal/main amd64 libatm1 amd64 1:2.5.1-4 [21.8 kB]\nGet:5 http://archive.ubuntu.com/ubuntu focal/main amd64 libpng16-16 amd64 1.6.37-2 [179 kB]\nGet:6 http://archive.ubuntu.com/ubuntu focal/main amd64 fonts-dejavu-core all 2.37-1 [1041 kB]\nGet:7 http://archive.ubuntu.com/ubuntu focal/main amd64 fontconfig-config all 2.13.1-2ubuntu3 [28.8 kB]\nGet:8 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libfreetype6 amd64 2.10.1-2ubuntu0.1 [341 kB]\nGet:9 http://archive.ubuntu.com/ubuntu focal/main amd64 libfontconfig1 amd64 2.13.1-2ubuntu3 [114 kB]\nGet:10 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libjpeg-turbo8 amd64 2.0.3-0ubuntu1.20.04.1 [117 kB]\nGet:11 http://archive.ubuntu.com/ubuntu focal/main amd64 libjpeg8 amd64 8c-2ubuntu8 [2194 B]\nGet:12 http://archive.ubuntu.com/ubuntu focal/main amd64 libjbig0 amd64 2.1-3.1build1 [26.7 kB]\nGet:13 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libwebp6 amd64 0.6.1-2ubuntu0.20.04.1 [185 kB]\nGet:14 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libtiff5 amd64 4.1.0+git191117-2ubuntu0.20.04.2 [162 kB]\nGet:15 http://archive.ubuntu.com/ubuntu focal/main amd64 libxpm4 amd64 1:3.5.12-1 [34.0 kB]\nGet:16 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libgd3 amd64 2.2.5-5.2ubuntu2.1 [118 kB]\nGet:17 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 nginx-common all 1.18.0-0ubuntu1.2 [37.5 kB]\nGet:18 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libnginx-mod-http-image-filter amd64 1.18.0-0ubuntu1.2 [14.4 kB]\nGet:19 http://archive.ubuntu.com/ubuntu focal/main amd64 libxslt1.1 amd64 1.1.34-4 [152 kB]\nGet:20 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libnginx-mod-http-xslt-filter amd64 1.18.0-0ubuntu1.2 [12.7 kB]\nGet:21 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libnginx-mod-mail amd64 1.18.0-0ubuntu1.2 [42.5 kB]\nGet:22 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libnginx-mod-stream amd64 1.18.0-0ubuntu1.2 [67.3 kB]\nGet:23 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 nginx-core amd64 1.18.0-0ubuntu1.2 [425 kB]\nGet:24 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 nginx all 1.18.0-0ubuntu1.2 [3620 B]\nPreconfiguring packages ...\nFetched 4023 kB in 17s (239 kB/s)\nSelecting previously unselected package libmnl0:amd64.\r\n(Reading database ... \r(Reading database ... 5%\r(Reading database ... 10%\r(Reading database ... 15%\r(Reading database ... 20%\r(Reading database ... 25%\r(Reading database ... 30%\r(Reading database ... 35%\r(Reading database ... 40%\r(Reading database ... 45%\r(Reading database ... 50%\r(Reading database ... 55%\r(Reading database ... 60%\r(Reading database ... 65%\r(Reading database ... 70%\r(Reading database ... 75%\r(Reading database ... 80%\r(Reading database ... 85%\r(Reading database ... 90%\r(Reading database ... 95%\r(Reading database ... 100%\r(Reading database ... 37118 files and directories currently installed.)\r\nPreparing to unpack .../00-libmnl0_1.0.4-2_amd64.deb ...\r\nUnpacking libmnl0:amd64 (1.0.4-2) ...\r\nSelecting previously unselected package libxtables12:amd64.\r\nPreparing to unpack .../01-libxtables12_1.8.4-3ubuntu2_amd64.deb ...\r\nUnpacking libxtables12:amd64 (1.8.4-3ubuntu2) ...\r\nSelecting previously unselected package iproute2.\r\nPreparing to unpack .../02-iproute2_5.5.0-1ubuntu1_amd64.deb ...\r\nUnpacking iproute2 (5.5.0-1ubuntu1) ...\r\nSelecting previously unselected package libatm1:amd64.\r\nPreparing to unpack .../03-libatm1_1%3a2.5.1-4_amd64.deb ...\r\nUnpacking libatm1:amd64 (1:2.5.1-4) ...\r\nSelecting previously unselected package libpng16-16:amd64.\r\nPreparing to unpack .../04-libpng16-16_1.6.37-2_amd64.deb ...\r\nUnpacking libpng16-16:amd64 (1.6.37-2) ...\r\nSelecting previously unselected package fonts-dejavu-core.\r\nPreparing to unpack .../05-fonts-dejavu-core_2.37-1_all.deb ...\r\nUnpacking fonts-dejavu-core (2.37-1) ...\r\nSelecting previously unselected package fontconfig-config.\r\nPreparing to unpack .../06-fontconfig-config_2.13.1-2ubuntu3_all.deb ...\r\nUnpacking fontconfig-config (2.13.1-2ubuntu3) ...\r\nSelecting previously unselected package libfreetype6:amd64.\r\nPreparing to unpack .../07-libfreetype6_2.10.1-2ubuntu0.1_amd64.deb ...\r\nUnpacking libfreetype6:amd64 (2.10.1-2ubuntu0.1) ...\r\nSelecting previously unselected package libfontconfig1:amd64.\r\nPreparing to unpack .../08-libfontconfig1_2.13.1-2ubuntu3_amd64.deb ...\r\nUnpacking libfontconfig1:amd64 (2.13.1-2ubuntu3) ...\r\nSelecting previously unselected package libjpeg-turbo8:amd64.\r\nPreparing to unpack .../09-libjpeg-turbo8_2.0.3-0ubuntu1.20.04.1_amd64.deb ...\r\nUnpacking libjpeg-turbo8:amd64 (2.0.3-0ubuntu1.20.04.1) ...\r\nSelecting previously unselected package libjpeg8:amd64.\r\nPreparing to unpack .../10-libjpeg8_8c-2ubuntu8_amd64.deb ...\r\nUnpacking libjpeg8:amd64 (8c-2ubuntu8) ...\r\nSelecting previously unselected package libjbig0:amd64.\r\nPreparing to unpack .../11-libjbig0_2.1-3.1build1_amd64.deb ...\r\nUnpacking libjbig0:amd64 (2.1-3.1build1) ...\r\nSelecting previously unselected package libwebp6:amd64.\r\nPreparing to unpack .../12-libwebp6_0.6.1-2ubuntu0.20.04.1_amd64.deb ...\r\nUnpacking libwebp6:amd64 (0.6.1-2ubuntu0.20.04.1) ...\r\nSelecting previously unselected package libtiff5:amd64.\r\nPreparing to unpack .../13-libtiff5_4.1.0+git191117-2ubuntu0.20.04.2_amd64.deb ...\r\nUnpacking libtiff5:amd64 (4.1.0+git191117-2ubuntu0.20.04.2) ...\r\nSelecting previously unselected package libxpm4:amd64.\r\nPreparing to unpack .../14-libxpm4_1%3a3.5.12-1_amd64.deb ...\r\nUnpacking libxpm4:amd64 (1:3.5.12-1) ...\r\nSelecting previously unselected package libgd3:amd64.\r\nPreparing to unpack .../15-libgd3_2.2.5-5.2ubuntu2.1_amd64.deb ...\r\nUnpacking libgd3:amd64 (2.2.5-5.2ubuntu2.1) ...\r\nSelecting previously unselected package nginx-common.\r\nPreparing to unpack .../16-nginx-common_1.18.0-0ubuntu1.2_all.deb ...\r\nUnpacking nginx-common (1.18.0-0ubuntu1.2) ...\r\nSelecting previously unselected package libnginx-mod-http-image-filter.\r\nPreparing to unpack .../17-libnginx-mod-http-image-filter_1.18.0-0ubuntu1.2_amd64.deb ...\r\nUnpacking libnginx-mod-http-image-filter (1.18.0-0ubuntu1.2) ...\r\nSelecting previously unselected package libxslt1.1:amd64.\r\nPreparing to unpack .../18-libxslt1.1_1.1.34-4_amd64.deb ...\r\nUnpacking libxslt1.1:amd64 (1.1.34-4) ...\r\nSelecting previously unselected package libnginx-mod-http-xslt-filter.\r\nPreparing to unpack .../19-libnginx-mod-http-xslt-filter_1.18.0-0ubuntu1.2_amd64.deb ...\r\nUnpacking libnginx-mod-http-xslt-filter (1.18.0-0ubuntu1.2) ...\r\nSelecting previously unselected package libnginx-mod-mail.\r\nPreparing to unpack .../20-libnginx-mod-mail_1.18.0-0ubuntu1.2_amd64.deb ...\r\nUnpacking libnginx-mod-mail (1.18.0-0ubuntu1.2) ...\r\nSelecting previously unselected package libnginx-mod-stream.\r\nPreparing to unpack .../21-libnginx-mod-stream_1.18.0-0ubuntu1.2_amd64.deb ...\r\nUnpacking libnginx-mod-stream (1.18.0-0ubuntu1.2) ...\r\nSelecting previously unselected package nginx-core.\r\nPreparing to unpack .../22-nginx-core_1.18.0-0ubuntu1.2_amd64.deb ...\r\nUnpacking nginx-core (1.18.0-0ubuntu1.2) ...\r\nSelecting previously unselected package nginx.\r\nPreparing to unpack .../23-nginx_1.18.0-0ubuntu1.2_all.deb ...\r\nUnpacking nginx (1.18.0-0ubuntu1.2) ...\r\nSetting up libxpm4:amd64 (1:3.5.12-1) ...\r\nSetting up nginx-common (1.18.0-0ubuntu1.2) ...\r\nCreated symlink /etc/systemd/system/multi-user.target.wants/nginx.service -> /lib/systemd/system/nginx.service.\r\nSetting up libatm1:amd64 (1:2.5.1-4) ...\r\nSetting up libjbig0:amd64 (2.1-3.1build1) ...\r\nSetting up libpng16-16:amd64 (1.6.37-2) ...\r\nSetting up libmnl0:amd64 (1.0.4-2) ...\r\nSetting up libwebp6:amd64 (0.6.1-2ubuntu0.20.04.1) ...\r\nSetting up fonts-dejavu-core (2.37-1) ...\r\nSetting up libjpeg-turbo8:amd64 (2.0.3-0ubuntu1.20.04.1) ...\r\nSetting up libxtables12:amd64 (1.8.4-3ubuntu2) ...\r\nSetting up libxslt1.1:amd64 (1.1.34-4) ...\r\nSetting up libjpeg8:amd64 (8c-2ubuntu8) ...\r\nSetting up libnginx-mod-mail (1.18.0-0ubuntu1.2) ...\r\nSetting up fontconfig-config (2.13.1-2ubuntu3) ...\r\nSetting up iproute2 (5.5.0-1ubuntu1) ...\r\nSetting up libnginx-mod-stream (1.18.0-0ubuntu1.2) ...\r\nSetting up libnginx-mod-http-xslt-filter (1.18.0-0ubuntu1.2) ...\r\nSetting up libfreetype6:amd64 (2.10.1-2ubuntu0.1) ...\r\nSetting up libtiff5:amd64 (4.1.0+git191117-2ubuntu0.20.04.2) ...\r\nSetting up libfontconfig1:amd64 (2.13.1-2ubuntu3) ...\r\nSetting up libgd3:amd64 (2.2.5-5.2ubuntu2.1) ...\r\nSetting up libnginx-mod-http-image-filter (1.18.0-0ubuntu1.2) ...\r\nSetting up nginx-core (1.18.0-0ubuntu1.2) ...\r\ninvoke-rc.d: could not determine current runlevel\r\ninvoke-rc.d: policy-rc.d denied execution of start.\r\nSetting up nginx (1.18.0-0ubuntu1.2) ...\r\nProcessing triggers for systemd (245.4-4ubuntu3.15) ...\r\nProcessing triggers for libc-bin (2.31-0ubuntu9.2) ...\r\n", "stdout_lines": ["Reading package lists...", "Building dependency tree...", "Reading state information...", "The following additional packages will be installed:", "  fontconfig-config fonts-dejavu-core iproute2 libatm1 libfontconfig1", "  libfreetype6 libgd3 libjbig0 libjpeg-turbo8 libjpeg8 libmnl0", "  libnginx-mod-http-image-filter libnginx-mod-http-xslt-filter", "  libnginx-mod-mail libnginx-mod-stream libpng16-16 libtiff5 libwebp6 libxpm4", "  libxslt1.1 libxtables12 nginx-common nginx-core", "Suggested packages:", "  iproute2-doc libgd-tools fcgiwrap nginx-doc ssl-cert", "The following NEW packages will be installed:", "  fontconfig-config fonts-dejavu-core iproute2 libatm1 libfontconfig1", "  libfreetype6 libgd3 libjbig0 libjpeg-turbo8 libjpeg8 libmnl0", "  libnginx-mod-http-image-filter libnginx-mod-http-xslt-filter", "  libnginx-mod-mail libnginx-mod-stream libpng16-16 libtiff5 libwebp6 libxpm4", "  libxslt1.1 libxtables12 nginx nginx-common nginx-core", "0 upgraded, 24 newly installed, 0 to remove and 9 not upgraded.", "Need to get 4023 kB of archives.", "After this operation, 12.7 MB of additional disk space will be used.", "Get:1 http://archive.ubuntu.com/ubuntu focal/main amd64 libmnl0 amd64 1.0.4-2 [12.3 kB]", "Get:2 http://archive.ubuntu.com/ubuntu focal/main amd64 libxtables12 amd64 1.8.4-3ubuntu2 [28.4 kB]", "Get:3 http://archive.ubuntu.com/ubuntu focal/main amd64 iproute2 amd64 5.5.0-1ubuntu1 [858 kB]", "Get:4 http://archive.ubuntu.com/ubuntu focal/main amd64 libatm1 amd64 1:2.5.1-4 [21.8 kB]", "Get:5 http://archive.ubuntu.com/ubuntu focal/main amd64 libpng16-16 amd64 1.6.37-2 [179 kB]", "Get:6 http://archive.ubuntu.com/ubuntu focal/main amd64 fonts-dejavu-core all 2.37-1 [1041 kB]", "Get:7 http://archive.ubuntu.com/ubuntu focal/main amd64 fontconfig-config all 2.13.1-2ubuntu3 [28.8 kB]", "Get:8 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libfreetype6 amd64 2.10.1-2ubuntu0.1 [341 kB]", "Get:9 http://archive.ubuntu.com/ubuntu focal/main amd64 libfontconfig1 amd64 2.13.1-2ubuntu3 [114 kB]", "Get:10 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libjpeg-turbo8 amd64 2.0.3-0ubuntu1.20.04.1 [117 kB]", "Get:11 http://archive.ubuntu.com/ubuntu focal/main amd64 libjpeg8 amd64 8c-2ubuntu8 [2194 B]", "Get:12 http://archive.ubuntu.com/ubuntu focal/main amd64 libjbig0 amd64 2.1-3.1build1 [26.7 kB]", "Get:13 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libwebp6 amd64 0.6.1-2ubuntu0.20.04.1 [185 kB]", "Get:14 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libtiff5 amd64 4.1.0+git191117-2ubuntu0.20.04.2 [162 kB]", "Get:15 http://archive.ubuntu.com/ubuntu focal/main amd64 libxpm4 amd64 1:3.5.12-1 [34.0 kB]", "Get:16 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libgd3 amd64 2.2.5-5.2ubuntu2.1 [118 kB]", "Get:17 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 nginx-common all 1.18.0-0ubuntu1.2 [37.5 kB]", "Get:18 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libnginx-mod-http-image-filter amd64 1.18.0-0ubuntu1.2 [14.4 kB]", "Get:19 http://archive.ubuntu.com/ubuntu focal/main amd64 libxslt1.1 amd64 1.1.34-4 [152 kB]", "Get:20 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libnginx-mod-http-xslt-filter amd64 1.18.0-0ubuntu1.2 [12.7 kB]", "Get:21 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libnginx-mod-mail amd64 1.18.0-0ubuntu1.2 [42.5 kB]", "Get:22 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libnginx-mod-stream amd64 1.18.0-0ubuntu1.2 [67.3 kB]", "Get:23 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 nginx-core amd64 1.18.0-0ubuntu1.2 [425 kB]", "Get:24 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 nginx all 1.18.0-0ubuntu1.2 [3620 B]", "Preconfiguring packages ...", "Fetched 4023 kB in 17s (239 kB/s)", "Selecting previously unselected package libmnl0:amd64.", "(Reading database ... ", "(Reading database ... 5%", "(Reading database ... 10%", "(Reading database ... 15%", "(Reading database ... 20%", "(Reading database ... 25%", "(Reading database ... 30%", "(Reading database ... 35%", "(Reading database ... 40%", "(Reading database ... 45%", "(Reading database ... 50%", "(Reading database ... 55%", "(Reading database ... 60%", "(Reading database ... 65%", "(Reading database ... 70%", "(Reading database ... 75%", "(Reading database ... 80%", "(Reading database ... 85%", "(Reading database ... 90%", "(Reading database ... 95%", "(Reading database ... 100%", "(Reading database ... 37118 files and directories currently installed.)", "Preparing to unpack .../00-libmnl0_1.0.4-2_amd64.deb ...", "Unpacking libmnl0:amd64 (1.0.4-2) ...", "Selecting previously unselected package libxtables12:amd64.", "Preparing to unpack .../01-libxtables12_1.8.4-3ubuntu2_amd64.deb ...", "Unpacking libxtables12:amd64 (1.8.4-3ubuntu2) ...", "Selecting previously unselected package iproute2.", "Preparing to unpack .../02-iproute2_5.5.0-1ubuntu1_amd64.deb ...", "Unpacking iproute2 (5.5.0-1ubuntu1) ...", "Selecting previously unselected package libatm1:amd64.", "Preparing to unpack .../03-libatm1_1%3a2.5.1-4_amd64.deb ...", "Unpacking libatm1:amd64 (1:2.5.1-4) ...", "Selecting previously unselected package libpng16-16:amd64.", "Preparing to unpack .../04-libpng16-16_1.6.37-2_amd64.deb ...", "Unpacking libpng16-16:amd64 (1.6.37-2) ...", "Selecting previously unselected package fonts-dejavu-core.", "Preparing to unpack .../05-fonts-dejavu-core_2.37-1_all.deb ...", "Unpacking fonts-dejavu-core (2.37-1) ...", "Selecting previously unselected package fontconfig-config.", "Preparing to unpack .../06-fontconfig-config_2.13.1-2ubuntu3_all.deb ...", "Unpacking fontconfig-config (2.13.1-2ubuntu3) ...", "Selecting previously unselected package libfreetype6:amd64.", "Preparing to unpack .../07-libfreetype6_2.10.1-2ubuntu0.1_amd64.deb ...", "Unpacking libfreetype6:amd64 (2.10.1-2ubuntu0.1) ...", "Selecting previously unselected package libfontconfig1:amd64.", "Preparing to unpack .../08-libfontconfig1_2.13.1-2ubuntu3_amd64.deb ...", "Unpacking libfontconfig1:amd64 (2.13.1-2ubuntu3) ...", "Selecting previously unselected package libjpeg-turbo8:amd64.", "Preparing to unpack .../09-libjpeg-turbo8_2.0.3-0ubuntu1.20.04.1_amd64.deb ...", "Unpacking libjpeg-turbo8:amd64 (2.0.3-0ubuntu1.20.04.1) ...", "Selecting previously unselected package libjpeg8:amd64.", "Preparing to unpack .../10-libjpeg8_8c-2ubuntu8_amd64.deb ...", "Unpacking libjpeg8:amd64 (8c-2ubuntu8) ...", "Selecting previously unselected package libjbig0:amd64.", "Preparing to unpack .../11-libjbig0_2.1-3.1build1_amd64.deb ...", "Unpacking libjbig0:amd64 (2.1-3.1build1) ...", "Selecting previously unselected package libwebp6:amd64.", "Preparing to unpack .../12-libwebp6_0.6.1-2ubuntu0.20.04.1_amd64.deb ...", "Unpacking libwebp6:amd64 (0.6.1-2ubuntu0.20.04.1) ...", "Selecting previously unselected package libtiff5:amd64.", "Preparing to unpack .../13-libtiff5_4.1.0+git191117-2ubuntu0.20.04.2_amd64.deb ...", "Unpacking libtiff5:amd64 (4.1.0+git191117-2ubuntu0.20.04.2) ...", "Selecting previously unselected package libxpm4:amd64.", "Preparing to unpack .../14-libxpm4_1%3a3.5.12-1_amd64.deb ...", "Unpacking libxpm4:amd64 (1:3.5.12-1) ...", "Selecting previously unselected package libgd3:amd64.", "Preparing to unpack .../15-libgd3_2.2.5-5.2ubuntu2.1_amd64.deb ...", "Unpacking libgd3:amd64 (2.2.5-5.2ubuntu2.1) ...", "Selecting previously unselected package nginx-common.", "Preparing to unpack .../16-nginx-common_1.18.0-0ubuntu1.2_all.deb ...", "Unpacking nginx-common (1.18.0-0ubuntu1.2) ...", "Selecting previously unselected package libnginx-mod-http-image-filter.", "Preparing to unpack .../17-libnginx-mod-http-image-filter_1.18.0-0ubuntu1.2_amd64.deb ...", "Unpacking libnginx-mod-http-image-filter (1.18.0-0ubuntu1.2) ...", "Selecting previously unselected package libxslt1.1:amd64.", "Preparing to unpack .../18-libxslt1.1_1.1.34-4_amd64.deb ...", "Unpacking libxslt1.1:amd64 (1.1.34-4) ...", "Selecting previously unselected package libnginx-mod-http-xslt-filter.", "Preparing to unpack .../19-libnginx-mod-http-xslt-filter_1.18.0-0ubuntu1.2_amd64.deb ...", "Unpacking libnginx-mod-http-xslt-filter (1.18.0-0ubuntu1.2) ...", "Selecting previously unselected package libnginx-mod-mail.", "Preparing to unpack .../20-libnginx-mod-mail_1.18.0-0ubuntu1.2_amd64.deb ...", "Unpacking libnginx-mod-mail (1.18.0-0ubuntu1.2) ...", "Selecting previously unselected package libnginx-mod-stream.", "Preparing to unpack .../21-libnginx-mod-stream_1.18.0-0ubuntu1.2_amd64.deb ...", "Unpacking libnginx-mod-stream (1.18.0-0ubuntu1.2) ...", "Selecting previously unselected package nginx-core.", "Preparing to unpack .../22-nginx-core_1.18.0-0ubuntu1.2_amd64.deb ...", "Unpacking nginx-core (1.18.0-0ubuntu1.2) ...", "Selecting previously unselected package nginx.", "Preparing to unpack .../23-nginx_1.18.0-0ubuntu1.2_all.deb ...", "Unpacking nginx (1.18.0-0ubuntu1.2) ...", "Setting up libxpm4:amd64 (1:3.5.12-1) ...", "Setting up nginx-common (1.18.0-0ubuntu1.2) ...", "Created symlink /etc/systemd/system/multi-user.target.wants/nginx.service -> /lib/systemd/system/nginx.service.", "Setting up libatm1:amd64 (1:2.5.1-4) ...", "Setting up libjbig0:amd64 (2.1-3.1build1) ...", "Setting up libpng16-16:amd64 (1.6.37-2) ...", "Setting up libmnl0:amd64 (1.0.4-2) ...", "Setting up libwebp6:amd64 (0.6.1-2ubuntu0.20.04.1) ...", "Setting up fonts-dejavu-core (2.37-1) ...", "Setting up libjpeg-turbo8:amd64 (2.0.3-0ubuntu1.20.04.1) ...", "Setting up libxtables12:amd64 (1.8.4-3ubuntu2) ...", "Setting up libxslt1.1:amd64 (1.1.34-4) ...", "Setting up libjpeg8:amd64 (8c-2ubuntu8) ...", "Setting up libnginx-mod-mail (1.18.0-0ubuntu1.2) ...", "Setting up fontconfig-config (2.13.1-2ubuntu3) ...", "Setting up iproute2 (5.5.0-1ubuntu1) ...", "Setting up libnginx-mod-stream (1.18.0-0ubuntu1.2) ...", "Setting up libnginx-mod-http-xslt-filter (1.18.0-0ubuntu1.2) ...", "Setting up libfreetype6:amd64 (2.10.1-2ubuntu0.1) ...", "Setting up libtiff5:amd64 (4.1.0+git191117-2ubuntu0.20.04.2) ...", "Setting up libfontconfig1:amd64 (2.13.1-2ubuntu3) ...", "Setting up libgd3:amd64 (2.2.5-5.2ubuntu2.1) ...", "Setting up libnginx-mod-http-image-filter (1.18.0-0ubuntu1.2) ...", "Setting up nginx-core (1.18.0-0ubuntu1.2) ...", "invoke-rc.d: could not determine current runlevel", "invoke-rc.d: policy-rc.d denied execution of start.", "Setting up nginx (1.18.0-0ubuntu1.2) ...", "Processing triggers for systemd (245.4-4ubuntu3.15) ...", "Processing triggers for libc-bin (2.31-0ubuntu9.2) ..."]}[0m
+I, [2022-02-17T20:44:35.829901 #16611]  INFO -- default-Ubuntu: [0;33m[0m
+I, [2022-02-17T20:44:35.831228 #16611]  INFO -- default-Ubuntu: TASK [web-balancer : Instala servidor Ngin no RedHat/CentOS] *******************
+I, [2022-02-17T20:44:35.881534 #16611]  INFO -- default-Ubuntu: [0;36mskipping: [localhost] => {"changed": false, "skip_reason": "Conditional result was False"}[0m
+I, [2022-02-17T20:44:35.911930 #16611]  INFO -- default-Ubuntu: [0;36m[0m
+I, [2022-02-17T20:44:35.913095 #16611]  INFO -- default-Ubuntu: TASK [web-balancer : Inicia e ativa na inicializacao o servico nginx] **********
+I, [2022-02-17T20:44:35.961595 #16611]  INFO -- default-Ubuntu: [0;36mskipping: [localhost] => {"changed": false, "skip_reason": "Conditional result was False"}[0m
+I, [2022-02-17T20:44:35.994642 #16611]  INFO -- default-Ubuntu: [0;36m[0m
+I, [2022-02-17T20:44:35.995238 #16611]  INFO -- default-Ubuntu: TASK [web-balancer : Define o arquivo de configuracao do servidor Nginx no Debian/Ubuntu] ***
+I, [2022-02-17T20:44:37.315593 #16611]  INFO -- default-Ubuntu: [0;31m--- before: /etc/nginx/nginx.conf[0m
+I, [2022-02-17T20:44:37.316650 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;32m+++ after: /home/kitchen/.ansible/tmp/ansible-local-2069sa9l4ol1/tmp0i341xxk/nginx-debian.conf.j2[0m
+I, [2022-02-17T20:44:37.317266 #16611]  INFO -- default-Ubuntu: [0;32m[0m[0;36m@@ -5,81 +5,55 @@[0m
+I, [2022-02-17T20:44:37.317789 #16611]  INFO -- default-Ubuntu: [0;36m[0m 
+I, [2022-02-17T20:44:37.318726 #16611]  INFO -- default-Ubuntu:  events {
+I, [2022-02-17T20:44:37.320382 #16611]  INFO -- default-Ubuntu:  	worker_connections 768;
+I, [2022-02-17T20:44:37.321817 #16611]  INFO -- default-Ubuntu: [0;31m-	# multi_accept on;[0m
+I, [2022-02-17T20:44:37.323584 #16611]  INFO -- default-Ubuntu: [0;31m[0m }
+I, [2022-02-17T20:44:37.325347 #16611]  INFO -- default-Ubuntu:  
+I, [2022-02-17T20:44:37.326646 #16611]  INFO -- default-Ubuntu:  http {
+I, [2022-02-17T20:44:37.326969 #16611]  INFO -- default-Ubuntu: [0;31m-[0m
+I, [2022-02-17T20:44:37.328363 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-	##[0m
+I, [2022-02-17T20:44:37.333631 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-	# Basic Settings[0m
+I, [2022-02-17T20:44:37.334225 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-	##[0m
+I, [2022-02-17T20:44:37.334596 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-[0m
+I, [2022-02-17T20:44:37.335241 #16611]  INFO -- default-Ubuntu: [0;31m[0m 	sendfile on;
+I, [2022-02-17T20:44:37.335712 #16611]  INFO -- default-Ubuntu:  	tcp_nopush on;
+I, [2022-02-17T20:44:37.336222 #16611]  INFO -- default-Ubuntu:  	tcp_nodelay on;
+I, [2022-02-17T20:44:37.337047 #16611]  INFO -- default-Ubuntu:  	keepalive_timeout 65;
+I, [2022-02-17T20:44:37.340057 #16611]  INFO -- default-Ubuntu:  	types_hash_max_size 2048;
+I, [2022-02-17T20:44:37.340650 #16611]  INFO -- default-Ubuntu: [0;31m-	# server_tokens off;[0m
+I, [2022-02-17T20:44:37.344269 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-[0m
+I, [2022-02-17T20:44:37.344722 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-	# server_names_hash_bucket_size 64;[0m
+I, [2022-02-17T20:44:37.345797 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-	# server_name_in_redirect off;[0m
+I, [2022-02-17T20:44:37.352661 #16611]  INFO -- default-Ubuntu: [0;31m[0m 
+I, [2022-02-17T20:44:37.352717 #16611]  INFO -- default-Ubuntu:  	include /etc/nginx/mime.types;
+I, [2022-02-17T20:44:37.352734 #16611]  INFO -- default-Ubuntu:  	default_type application/octet-stream;
+I, [2022-02-17T20:44:37.353468 #16611]  INFO -- default-Ubuntu:  
+I, [2022-02-17T20:44:37.353494 #16611]  INFO -- default-Ubuntu: [0;31m-	##[0m
+I, [2022-02-17T20:44:37.353510 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-	# SSL Settings[0m
+I, [2022-02-17T20:44:37.353523 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-	##[0m
+I, [2022-02-17T20:44:37.353537 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-[0m
+I, [2022-02-17T20:44:37.353551 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-	ssl_protocols TLSv1 TLSv1.1 TLSv1.2 TLSv1.3; # Dropping SSLv3, ref: POODLE[0m
+I, [2022-02-17T20:44:37.353565 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;32m+	ssl_protocols TLSv1 TLSv1.1 TLSv1.2;[0m
+I, [2022-02-17T20:44:37.353591 #16611]  INFO -- default-Ubuntu: [0;32m[0m 	ssl_prefer_server_ciphers on;
+I, [2022-02-17T20:44:37.353606 #16611]  INFO -- default-Ubuntu: [0;31m-[0m
+I, [2022-02-17T20:44:37.355738 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-	##[0m
+I, [2022-02-17T20:44:37.355766 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-	# Logging Settings[0m
+I, [2022-02-17T20:44:37.355810 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-	##[0m
+I, [2022-02-17T20:44:37.355831 #16611]  INFO -- default-Ubuntu: [0;31m[0m 
+I, [2022-02-17T20:44:37.355845 #16611]  INFO -- default-Ubuntu:  	access_log /var/log/nginx/access.log;
+I, [2022-02-17T20:44:37.355859 #16611]  INFO -- default-Ubuntu:  	error_log /var/log/nginx/error.log;
+I, [2022-02-17T20:44:37.355872 #16611]  INFO -- default-Ubuntu:  
+I, [2022-02-17T20:44:37.355885 #16611]  INFO -- default-Ubuntu: [0;31m-	##[0m
+I, [2022-02-17T20:44:37.357409 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-	# Gzip Settings[0m
+I, [2022-02-17T20:44:37.357434 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-	##[0m
+I, [2022-02-17T20:44:37.357450 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-[0m
+I, [2022-02-17T20:44:37.357463 #16611]  INFO -- default-Ubuntu: [0;31m[0m 	gzip on;
+I, [2022-02-17T20:44:37.357477 #16611]  INFO -- default-Ubuntu: [0;31m-[0m
+I, [2022-02-17T20:44:37.357490 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-	# gzip_vary on;[0m
+I, [2022-02-17T20:44:37.357504 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-	# gzip_proxied any;[0m
+I, [2022-02-17T20:44:37.357518 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-	# gzip_comp_level 6;[0m
+I, [2022-02-17T20:44:37.357531 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-	# gzip_buffers 16 8k;[0m
+I, [2022-02-17T20:44:37.357545 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-	# gzip_http_version 1.1;[0m
+I, [2022-02-17T20:44:37.357558 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-	# gzip_types text/plain text/css application/json application/javascript text/xml application/xml application/xml+rss text/javascript;[0m
+I, [2022-02-17T20:44:37.357572 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-[0m
+I, [2022-02-17T20:44:37.357585 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-	##[0m
+I, [2022-02-17T20:44:37.357598 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-	# Virtual Host Configs[0m
+I, [2022-02-17T20:44:37.357611 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-	##[0m
+I, [2022-02-17T20:44:37.357624 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;32m+	gzip_disable "msie6";[0m
+I, [2022-02-17T20:44:37.357637 #16611]  INFO -- default-Ubuntu: [0;32m[0m 
+I, [2022-02-17T20:44:37.357651 #16611]  INFO -- default-Ubuntu:  	include /etc/nginx/conf.d/*.conf;
+I, [2022-02-17T20:44:37.366666 #16611]  INFO -- default-Ubuntu:  	include /etc/nginx/sites-enabled/*;
+I, [2022-02-17T20:44:37.366706 #16611]  INFO -- default-Ubuntu: [0;32m+[0m
+I, [2022-02-17T20:44:37.366722 #16611]  INFO -- default-Ubuntu: [0;32m[0m[0;32m+   upstream cluster {[0m
+I, [2022-02-17T20:44:37.366736 #16611]  INFO -- default-Ubuntu: [0;32m[0m[0;32m+   server 172.16.0.201 weight=1;[0m
+I, [2022-02-17T20:44:37.366750 #16611]  INFO -- default-Ubuntu: [0;32m[0m[0;32m+   server 172.16.0.202 weight=1;[0m
+I, [2022-02-17T20:44:37.366792 #16611]  INFO -- default-Ubuntu: [0;32m[0m[0;32m+  }[0m
+I, [2022-02-17T20:44:37.366809 #16611]  INFO -- default-Ubuntu: [0;32m[0m[0;32m+[0m
+I, [2022-02-17T20:44:37.366823 #16611]  INFO -- default-Ubuntu: [0;32m[0m[0;32m+   server {[0m
+I, [2022-02-17T20:44:37.366837 #16611]  INFO -- default-Ubuntu: [0;32m[0m[0;32m+     listen 172.16.0.200:80;[0m
+I, [2022-02-17T20:44:37.366851 #16611]  INFO -- default-Ubuntu: [0;32m[0m[0;32m+     server_name www.dexter.com.br dexter.com.br;[0m
+I, [2022-02-17T20:44:37.366864 #16611]  INFO -- default-Ubuntu: [0;32m[0m[0;32m+     location / {[0m
+I, [2022-02-17T20:44:37.366879 #16611]  INFO -- default-Ubuntu: [0;32m[0m[0;32m+       proxy_pass http://cluster;[0m
+I, [2022-02-17T20:44:37.366904 #16611]  INFO -- default-Ubuntu: [0;32m[0m[0;32m+       proxy_redirect off;[0m
+I, [2022-02-17T20:44:37.366919 #16611]  INFO -- default-Ubuntu: [0;32m[0m[0;32m+       proxy_set_header Host $host;[0m
+I, [2022-02-17T20:44:37.366933 #16611]  INFO -- default-Ubuntu: [0;32m[0m[0;32m+       proxy_set_header X-Real-IP $remote_addr;[0m
+I, [2022-02-17T20:44:37.369442 #16611]  INFO -- default-Ubuntu: [0;32m[0m[0;32m+       proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;[0m
+I, [2022-02-17T20:44:37.369478 #16611]  INFO -- default-Ubuntu: [0;32m[0m[0;32m+       proxy_buffers 8 32k;[0m
+I, [2022-02-17T20:44:37.369494 #16611]  INFO -- default-Ubuntu: [0;32m[0m[0;32m+[0m
+I, [2022-02-17T20:44:37.369508 #16611]  INFO -- default-Ubuntu: [0;32m[0m[0;32m+       default_type "text/html; charset=utf-8";[0m
+I, [2022-02-17T20:44:37.369522 #16611]  INFO -- default-Ubuntu: [0;32m[0m[0;32m+       error_page 501 502 404 405 = @fallback;[0m
+I, [2022-02-17T20:44:37.369536 #16611]  INFO -- default-Ubuntu: [0;32m[0m[0;32m+  }[0m
+I, [2022-02-17T20:44:37.369549 #16611]  INFO -- default-Ubuntu: [0;32m[0m[0;32m+[0m
+I, [2022-02-17T20:44:37.369563 #16611]  INFO -- default-Ubuntu: [0;32m[0m[0;32m+    location @fallback {[0m
+I, [2022-02-17T20:44:37.369577 #16611]  INFO -- default-Ubuntu: [0;32m[0m[0;32m+        proxy_pass http://cluster;[0m
+I, [2022-02-17T20:44:37.369591 #16611]  INFO -- default-Ubuntu: [0;32m[0m[0;32m+        proxy_set_header Host $host;[0m
+I, [2022-02-17T20:44:37.369604 #16611]  INFO -- default-Ubuntu: [0;32m[0m[0;32m+        proxy_set_header X-Real-IP $remote_addr;[0m
+I, [2022-02-17T20:44:37.369618 #16611]  INFO -- default-Ubuntu: [0;32m[0m[0;32m+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;[0m
+I, [2022-02-17T20:44:37.369632 #16611]  INFO -- default-Ubuntu: [0;32m[0m[0;32m+    }[0m
+I, [2022-02-17T20:44:37.369645 #16611]  INFO -- default-Ubuntu: [0;32m[0m[0;32m+  }[0m
+I, [2022-02-17T20:44:37.369658 #16611]  INFO -- default-Ubuntu: [0;32m[0m }
+I, [2022-02-17T20:44:37.369671 #16611]  INFO -- default-Ubuntu: [0;31m-[0m
+I, [2022-02-17T20:44:37.369706 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-[0m
+I, [2022-02-17T20:44:37.369729 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-#mail {[0m
+I, [2022-02-17T20:44:37.380478 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-#	# See sample authentication script at:[0m
+I, [2022-02-17T20:44:37.380521 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-#	# http://wiki.nginx.org/ImapAuthenticateWithApachePhpScript[0m
+I, [2022-02-17T20:44:37.380536 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-# [0m
+I, [2022-02-17T20:44:37.380550 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-#	# auth_http localhost/auth.php;[0m
+I, [2022-02-17T20:44:37.380564 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-#	# pop3_capabilities "TOP" "USER";[0m
+I, [2022-02-17T20:44:37.380578 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-#	# imap_capabilities "IMAP4rev1" "UIDPLUS";[0m
+I, [2022-02-17T20:44:37.380591 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-# [0m
+I, [2022-02-17T20:44:37.380604 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-#	server {[0m
+I, [2022-02-17T20:44:37.380746 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-#		listen     localhost:110;[0m
+I, [2022-02-17T20:44:37.382855 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-#		protocol   pop3;[0m
+I, [2022-02-17T20:44:37.382881 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-#		proxy      on;[0m
+I, [2022-02-17T20:44:37.382895 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-#	}[0m
+I, [2022-02-17T20:44:37.382908 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-# [0m
+I, [2022-02-17T20:44:37.382921 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-#	server {[0m
+I, [2022-02-17T20:44:37.384171 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-#		listen     localhost:143;[0m
+I, [2022-02-17T20:44:37.384196 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-#		protocol   imap;[0m
+I, [2022-02-17T20:44:37.384877 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-#		proxy      on;[0m
+I, [2022-02-17T20:44:37.384901 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-#	}[0m
+I, [2022-02-17T20:44:37.384915 #16611]  INFO -- default-Ubuntu: [0;31m[0m[0;31m-#}[0m
+I, [2022-02-17T20:44:37.384929 #16611]  INFO -- default-Ubuntu: [0;31m[0m
+I, [2022-02-17T20:44:37.391690 #16611]  INFO -- default-Ubuntu: [0;33mchanged: [localhost] => {"changed": true, "checksum": "64d8dd8d36034a35e746d15371d3fa69e01365da", "dest": "/etc/nginx/nginx.conf", "gid": 0, "group": "root", "md5sum": "eb981152e09c0d8f9d571382f67c1265", "mode": "0644", "owner": "root", "size": 1342, "src": "/root/.ansible/tmp/ansible-tmp-1645130676.041868-267661668561594/source", "state": "file", "uid": 0}[0m
+I, [2022-02-17T20:44:37.392366 #16611]  INFO -- default-Ubuntu: [0;33m[0m
+I, [2022-02-17T20:44:37.392862 #16611]  INFO -- default-Ubuntu: TASK [web-balancer : Define o arquivo de configuracao do servidor Nginx no RedHat/CentOS] ***
+I, [2022-02-17T20:44:37.439396 #16611]  INFO -- default-Ubuntu: [0;36mskipping: [localhost] => {"changed": false, "skip_reason": "Conditional result was False"}[0m
+I, [2022-02-17T20:44:37.441634 #16611]  INFO -- default-Ubuntu: [0;36m[0m
+I, [2022-02-17T20:44:37.442240 #16611]  INFO -- default-Ubuntu: RUNNING HANDLER [web-balancer : Start Nginx] ***********************************
+I, [2022-02-17T20:44:37.979566 #16611]  INFO -- default-Ubuntu: [0;33mchanged: [localhost] => {"changed": true, "name": "nginx", "state": "started"}[0m
+I, [2022-02-17T20:44:37.980323 #16611]  INFO -- default-Ubuntu: [0;33m[0m
+I, [2022-02-17T20:44:37.981261 #16611]  INFO -- default-Ubuntu: RUNNING HANDLER [web-balancer : Restart Nginx] *********************************
+I, [2022-02-17T20:44:39.339257 #16611]  INFO -- default-Ubuntu: [0;33mchanged: [localhost] => {"changed": true, "name": "nginx", "state": "started"}[0m
+I, [2022-02-17T20:44:39.344213 #16611]  INFO -- default-Ubuntu: [0;33m[0m
+I, [2022-02-17T20:44:39.344881 #16611]  INFO -- default-Ubuntu: PLAY RECAP *********************************************************************
+I, [2022-02-17T20:44:39.346244 #16611]  INFO -- default-Ubuntu: [0;33mlocalhost[0m                  : [0;32mok=5   [0m [0;33mchanged=4   [0m unreachable=0    failed=0    [0;36mskipped=3   [0m rescued=0    ignored=0   
+I, [2022-02-17T20:44:39.347369 #16611]  INFO -- default-Ubuntu: 
+I, [2022-02-17T20:44:39.416131 #16611]  INFO -- default-Ubuntu: Downloading files from <default-Ubuntu>
+I, [2022-02-17T20:44:39.427696 #16611]  INFO -- default-Ubuntu: Finished converging <default-Ubuntu> (3m13.55s).
+I, [2022-02-17T20:44:39.428090 #16611]  INFO -- default-Ubuntu: -----> Setting up <default-Ubuntu>...
+I, [2022-02-17T20:44:39.428985 #16611]  INFO -- default-Ubuntu: Finished setting up <default-Ubuntu> (0m0.00s).
+I, [2022-02-17T20:44:39.429279 #16611]  INFO -- default-Ubuntu: -----> Verifying <default-Ubuntu>...
+I, [2022-02-17T20:44:39.429772 #16611]  INFO -- default-Ubuntu: Preparing files for transfer
+I, [2022-02-17T20:44:39.718753 #16611]  INFO -- default-Ubuntu: -----> Installing Busser (busser)
+I, [2022-02-17T20:44:40.534758 #16611]  INFO -- default-Ubuntu: Fetching thor-0.19.0.gem
+I, [2022-02-17T20:44:40.552202 #16611]  INFO -- default-Ubuntu: Fetching busser-0.8.0.gem
+I, [2022-02-17T20:44:40.605509 #16611]  INFO -- default-Ubuntu: Successfully installed thor-0.19.0
+I, [2022-02-17T20:44:40.678304 #16611]  INFO -- default-Ubuntu: Successfully installed busser-0.8.0
+I, [2022-02-17T20:44:40.678983 #16611]  INFO -- default-Ubuntu: 2 gems installed
+I, [2022-02-17T20:44:40.961522 #16611]  INFO -- default-Ubuntu: -----> Installing Busser plugin: busser-serverspec
+I, [2022-02-17T20:44:42.642475 #16611]  INFO -- default-Ubuntu: Plugin serverspec installed (version 0.5.10)
+I, [2022-02-17T20:44:42.651372 #16611]  INFO -- default-Ubuntu: -----> Running postinstall for serverspec plugin
+I, [2022-02-17T20:44:43.557113 #16611]  INFO -- default-Ubuntu: Suite path directory /tmp/verifier/suites does not exist, skipping.
+I, [2022-02-17T20:44:43.561339 #16611]  INFO -- default-Ubuntu: Transferring files to <default-Ubuntu>
+I, [2022-02-17T20:44:43.935220 #16611]  INFO -- default-Ubuntu: -----> Running serverspec test suite
+I, [2022-02-17T20:44:43.944317 #16611]  INFO -- default-Ubuntu: -----> Installing Serverspec..
+I, [2022-02-17T20:44:45.185682 #16611]  INFO -- default-Ubuntu: Fetching net-scp-3.0.0.gem
+I, [2022-02-17T20:44:45.205492 #16611]  INFO -- default-Ubuntu: Fetching specinfra-2.83.1.gem
+I, [2022-02-17T20:44:45.236740 #16611]  INFO -- default-Ubuntu: Fetching rspec-expectations-3.11.0.gem
+I, [2022-02-17T20:44:45.245797 #16611]  INFO -- default-Ubuntu: Fetching net-telnet-0.1.1.gem
+I, [2022-02-17T20:44:45.264663 #16611]  INFO -- default-Ubuntu: Fetching serverspec-2.42.0.gem
+I, [2022-02-17T20:44:45.285225 #16611]  INFO -- default-Ubuntu: Fetching net-ssh-6.1.0.gem
+I, [2022-02-17T20:44:45.306772 #16611]  INFO -- default-Ubuntu: Fetching diff-lcs-1.5.0.gem
+I, [2022-02-17T20:44:45.315445 #16611]  INFO -- default-Ubuntu: Fetching sfl-2.3.gem
+I, [2022-02-17T20:44:45.384423 #16611]  INFO -- default-Ubuntu: Fetching rspec-mocks-3.11.0.gem
+I, [2022-02-17T20:44:45.395681 #16611]  INFO -- default-Ubuntu: Fetching multi_json-1.15.0.gem
+I, [2022-02-17T20:44:45.421149 #16611]  INFO -- default-Ubuntu: Fetching rspec-its-1.3.0.gem
+I, [2022-02-17T20:44:45.440433 #16611]  INFO -- default-Ubuntu: Fetching rspec-3.11.0.gem
+I, [2022-02-17T20:44:46.299837 #16611]  INFO -- default-Ubuntu: -----> serverspec installed (version 2.42.0)
+I, [2022-02-17T20:44:46.456476 #16611]  INFO -- default-Ubuntu: /opt/chef/embedded/bin/ruby -I/tmp/verifier/suites/serverspec -I/tmp/verifier/gems/gems/rspec-support-3.11.0/lib:/tmp/verifier/gems/gems/rspec-core-3.11.0/lib /opt/chef/embedded/bin/rspec --pattern /tmp/verifier/suites/serverspec/\*\*/\*_spec.rb --color --format documentation --default-path /tmp/verifier/suites/serverspec
+I, [2022-02-17T20:44:47.041826 #16611]  INFO -- default-Ubuntu: 
+I, [2022-02-17T20:44:47.042575 #16611]  INFO -- default-Ubuntu: Package "nginx"
+I, [2022-02-17T20:44:47.132776 #16611]  INFO -- default-Ubuntu: [32m  is expected to be installed[0m
+I, [2022-02-17T20:44:47.133386 #16611]  INFO -- default-Ubuntu: 
+I, [2022-02-17T20:44:47.134066 #16611]  INFO -- default-Ubuntu: File "/etc/nginx/nginx.conf"
+I, [2022-02-17T20:44:47.141064 #16611]  INFO -- default-Ubuntu: [32m  is expected to contain "proxy_pass http\\:\\/\\/cluster"[0m
+I, [2022-02-17T20:44:47.141620 #16611]  INFO -- default-Ubuntu: 
+I, [2022-02-17T20:44:47.142187 #16611]  INFO -- default-Ubuntu: Service "nginx"
+I, [2022-02-17T20:44:47.149418 #16611]  INFO -- default-Ubuntu: [32m  is expected to be enabled[0m
+I, [2022-02-17T20:44:47.163262 #16611]  INFO -- default-Ubuntu: [32m  is expected to be running[0m
+I, [2022-02-17T20:44:47.163867 #16611]  INFO -- default-Ubuntu: 
+I, [2022-02-17T20:44:47.164384 #16611]  INFO -- default-Ubuntu: Port "80"
+I, [2022-02-17T20:44:47.171041 #16611]  INFO -- default-Ubuntu: [32m  is expected to be listening[0m
+I, [2022-02-17T20:44:47.172089 #16611]  INFO -- default-Ubuntu: 
+I, [2022-02-17T20:44:47.172617 #16611]  INFO -- default-Ubuntu: Finished in 0.1312 seconds (files took 0.44987 seconds to load)
+I, [2022-02-17T20:44:47.173106 #16611]  INFO -- default-Ubuntu: [32m5 examples, 0 failures[0m
+I, [2022-02-17T20:44:47.173466 #16611]  INFO -- default-Ubuntu: 
+I, [2022-02-17T20:44:47.204926 #16611]  INFO -- default-Ubuntu: Downloading files from <default-Ubuntu>
+I, [2022-02-17T20:44:47.205608 #16611]  INFO -- default-Ubuntu: Finished verifying <default-Ubuntu> (0m7.78s).
+I, [2022-02-17T20:44:47.205951 #16611]  INFO -- default-Ubuntu: -----> Destroying <default-Ubuntu>...
+I, [2022-02-17T20:44:48.525671 #16611]  INFO -- default-Ubuntu: Finished destroying <default-Ubuntu> (0m1.32s).
+I, [2022-02-17T20:44:48.526074 #16611]  INFO -- default-Ubuntu: Finished testing <default-Ubuntu> (3m23.43s).
